@@ -1,0 +1,53 @@
+:root {
+    /* Grid layout  */
+    --fws-table-grid-1-1: repeat(3, [col] 1fr );
+    --fws-table-grid-2-1: repeat(3, [col] 1fr );
+    --fws-table-grid-3-1: repeat(3, [col] 1fr );
+    --fws-table-grid-4-1: repeat(4, [col] 1fr );
+    --fws-table-grid-5-1: repeat(5, [col] 1fr );
+    --fws-table-grid-6-1: repeat(6, [col] 1fr );
+    --fws-table-grid-7-1: repeat(7, [col] 1fr );
+}
+.fws-table-grid-1-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-1-1);
+}
+.fws-table-grid-2-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-2-1);
+}
+.fws-table-grid-3-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-3-1);
+}
+.fws-table-grid-4-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-4-1);
+}
+.fws-table-grid-5-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-5-1);
+}
+.fws-table-grid-6-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-6-1);
+}
+.fws-table-grid-7-1 {
+    display: grid;
+    grid-template-columns: var(--fws-table-grid-7-1);
+}
+.fws-table-grid-1-1, .fws-table-grid-2-1, .fws-table-grid-3-1, .fws-table-grid-4-1, .fws-table-grid-5-1, .fws-table-grid-6-1, .fws-table-grid-7-1 {
+    column-gap: 0.25em;
+}
+.fws-div-padding {
+    padding: 0.5em;
+}
+.fws-schedule-block {
+    margin-bottom: 0.5em;
+}
+@media screen and (max-width: 960px) {
+    :root {
+        --fws-table-grid-6-1: repeat(1, [col] 1fr);
+        --fws-table-grid-7-1: repeat(1, [col] 1fr);
+    }
+}

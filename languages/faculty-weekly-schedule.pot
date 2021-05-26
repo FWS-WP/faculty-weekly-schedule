@@ -1,0 +1,3098 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Faculty Weekly Schedule\n"
+"POT-Creation-Date: 2021-05-26 17:13-0400\n"
+"PO-Revision-Date: 2021-05-26 17:13-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: faculty-weekly-schedule.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: library/admin-page-framework/admin-page-framework.php:57
+#, php-format
+msgid "The method is called too early. Perform <code>%2$s</code> earlier."
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/github-custom-field-type/GitHubCustomFieldType.php:301
+#, php-format
+msgid "Follow @%1$s"
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/github-custom-field-type/GitHubCustomFieldType.php:303
+msgid "Watch"
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/github-custom-field-type/GitHubCustomFieldType.php:305
+msgid "Star"
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/github-custom-field-type/GitHubCustomFieldType.php:307
+msgid "Fork"
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/github-custom-field-type/GitHubCustomFieldType.php:309
+msgid "Issue"
+msgstr ""
+
+#: library/admin-page-framework/custom-field-types/path-custom-field-type/PathCustomFieldType.php:478
+#: library/admin-page-framework/custom-field-types/path-custom-field-type/PathCustomFieldType.php:503
+msgid "Select Path"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/AdminPageFramework_Factory.php:171
+#, php-format
+msgid "The method is not defined: %1$s"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:56
+msgid "The options have been updated."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:57
+msgid "The options have been cleared."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:58
+msgid "Export"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:59
+msgid "Export Options"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:60
+msgid "Import"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:61
+msgid "Import Options"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:62
+msgid "Submit"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:63
+msgid "An error occurred while uploading the import file."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:64
+#, php-format
+msgid "The uploaded file type is not supported: %1$s"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:65
+msgid "Could not load the importing data."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:66
+msgid "The uploaded file has been imported."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:67
+msgid "No data could be imported."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:68
+msgid "Upload Image"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:69
+msgid "Use This Image"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:70
+msgid "Insert from URL"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:71
+msgid "Are you sure you want to reset the options?"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:72
+msgid "Please confirm your action."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:73
+msgid "The specified options have been deleted."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:74
+msgid "A problem occurred while processing the form data. Please try again."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:75
+#, php-format
+msgid ""
+"Not all form fields could not be sent. Please check your server settings of "
+"PHP <code>max_input_vars</code> and consult the server administrator to "
+"increase the value. <code>max input vars</code>: %1$s. <code>$_POST</code> "
+"count: %2$s"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:76
+msgid "Is it okay to send the email?"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:77
+msgid "The email has been sent."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:78
+msgid "The email has been scheduled."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:79
+msgid "There was a problem sending the email"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:80
+#: schedule/help/help-schedule.php:71 schedule/help/help-settings.php:67
+#: schedule/post-type/class-fws-schedule-info.php:195
+#: schedule/settings/class-fws-settings-faculty.php:167
+msgid "Title"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:81
+msgid "Author"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:82
+msgid "Categories"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:83
+msgid "Tags"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:84
+msgid "Comments"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:85
+#: schedule/post-type/class-fws-schedule.php:953
+msgid "Date"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:86
+msgid "Show All"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:87
+msgid "Show All Authors"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:88
+msgid "Thank you for creating with"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:89
+msgid "and"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:90
+#: schedule/help/class-fws-help.php:56 schedule/help/help-schedule.php:259
+#: schedule/help/help-schedule.php:263 schedule/help/help-settings.php:185
+#: schedule/help/help-tips-faq.php:58 schedule/help/help-videos.php:24
+msgid "Settings"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:91
+msgid "Manage"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:92
+msgid "Select Image"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:93
+msgid "Upload File"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:94
+msgid "Use This File"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:95
+msgid "Select File"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:96
+msgid "Remove Value"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:97
+msgid "Select All"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:98
+msgid "Select None"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:99
+msgid "No term found."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:100
+msgid "Select"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:101
+msgid "Insert"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:102
+msgid "Use This"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:103
+msgid "Return to Library"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:104
+#, php-format
+msgid "%1$s queries in %2$s seconds."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:105
+#, php-format
+msgid "%1$s out of %2$s MB (%3$s) memory used."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:106
+#, php-format
+msgid "Peak memory usage %1$s MB."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:107
+#, php-format
+msgid "Initial memory usage  %1$s MB."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:108
+msgid "The allowed maximum number of fields is {0}."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:109
+msgid "The allowed minimum number of fields is {0}."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:110
+msgid "Add"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:111
+msgid "Remove"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:112
+msgid "The allowed maximum number of sections is {0}"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:113
+msgid "The allowed minimum number of sections is {0}"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:114
+msgid "Add Section"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:115
+msgid "Remove Section"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:116
+msgid "Toggle All"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:117
+msgid "Toggle all collapsible sections"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:118
+msgid "Reset"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:119
+#: schedule/post-type/class-fws-schedule-classes.php:238
+#: schedule/post-type/class-fws-schedule-messages.php:48
+#: schedule/post-type/class-fws-schedule-messages.php:82
+#: schedule/settings/class-fws-settings-messages.php:40
+#: schedule/settings/class-fws-settings-messages.php:72
+msgid "Yes"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:120
+#: schedule/post-type/class-fws-schedule-messages.php:49
+#: schedule/post-type/class-fws-schedule-messages.php:83
+#: schedule/post-type/schedule-shortcodes.php:72
+#: schedule/settings/class-fws-settings-messages.php:41
+#: schedule/settings/class-fws-settings-messages.php:73
+msgid "No"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:121
+msgid "On"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:122
+msgid "Off"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:123
+msgid "Enabled"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:124
+msgid "Disabled"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:125
+msgid "Supported"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:126
+msgid "Not Supported"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:127
+msgid "Functional"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:128
+msgid "Not Functional"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:129
+msgid "Too Long"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:130
+msgid "Acceptable"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:131
+msgid "No log found."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:132
+#, php-format
+msgid "The method is called too early: %1$s"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:133
+msgid "Debug Info"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:134
+msgid "Click here to expand to view the contents."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:135
+msgid "Click here to collapse the contents."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:136
+msgid "Loading..."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:137
+msgid "Please enable JavaScript for better user experience."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:138
+msgid "Debug"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:139
+msgid ""
+"This information will be disabled when <code>WP_DEBUG</code> is set to "
+"<code>false</code> in <code>wp-config.php</code>."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:140
+msgid "The ability to repeat sections is disabled."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:141
+msgid "The ability to repeat fields is disabled."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:142
+msgid "Warning."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:143
+msgid "Submit the form."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:144
+msgid "Please check this box if you want to proceed."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/_abstract/_model/AdminPageFramework_Message.php:145
+msgid "No file is selected."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_color.php:196
+msgid "Clear"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_color.php:196
+msgid "Default"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_color.php:196
+msgid "Select Color"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_color.php:196
+msgid "Current Color"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:65
+msgid "No browser information found."
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Version"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Language"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Memory Limit"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Multi-site"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Permalink Structure"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Active Theme"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Registered Post Statuses"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Table Prefix"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Table Prefix Length"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Table Prefix Status"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Multibite String Extension"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "WP_CONTENT_DIR Writeable"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Active Plugins"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+msgid "Network Active Plugins"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:92
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Constants"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Safe Mode"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Upload Max Size"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Post Max Size"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Upload Max File Size"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Max Execution Time"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Max Input Vars"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Argument Separator"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Allow URL File Open"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Display Errors"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Log Errors"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Error log location"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "Error Reporting Level"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "FSOCKOPEN"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "cURL"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "SOAP"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:168
+msgid "SUHOSIN"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Web Server"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session Name"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session Cookie Path"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session Save Path"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session Use Cookies"
+msgstr ""
+
+#: library/admin-page-framework/factory/_common/form/field_type/AdminPageFramework_FieldType_system.php:172
+msgid "Session Use Only Cookies"
+msgstr ""
+
+#: schedule/help/class-fws-help.php:60
+#: schedule/post-type/class-fws-schedule.php:838
+#: schedule/post-type/class-fws-schedule.php:862
+msgid "Schedule"
+msgstr ""
+
+#: schedule/help/class-fws-help.php:64 schedule/help/help-videos.php:28
+msgid "Shortcodes"
+msgstr ""
+
+#: schedule/help/class-fws-help.php:68
+msgid "Tips &amp; FAQ"
+msgstr ""
+
+#: schedule/help/class-fws-help.php:72
+msgid "Examples"
+msgstr ""
+
+#: schedule/help/class-fws-help.php:76
+msgid "Videos"
+msgstr ""
+
+#: schedule/help/help-examples.php:20 schedule/help/help-schedule.php:20
+#: schedule/help/help-settings.php:20 schedule/help/help-shortcodes.php:20
+#: schedule/help/help-tips-faq.php:20 schedule/help/help-videos.php:20
+msgid "Overview"
+msgstr ""
+
+#: schedule/help/help-examples.php:21
+msgid ""
+"The following examples demonstrates how different schedules can be set up."
+msgstr ""
+
+#: schedule/help/help-examples.php:22
+msgid "Click an image for a larger view."
+msgstr ""
+
+#: schedule/help/help-examples.php:23
+msgid "On-campus classes only with office hours"
+msgstr ""
+
+#: schedule/help/help-examples.php:24
+msgid "On-campus Classes Only Output"
+msgstr ""
+
+#: schedule/help/help-examples.php:24
+msgid "On-campus Classes Only Setup"
+msgstr ""
+
+#: schedule/help/help-examples.php:25
+msgid "On-campus and online classes with office hours"
+msgstr ""
+
+#: schedule/help/help-examples.php:26
+msgid "On-campus and Online Classes with Office Hours Output"
+msgstr ""
+
+#: schedule/help/help-examples.php:26
+msgid "On-campus and Online Classes with Office Hours Setup"
+msgstr ""
+
+#: schedule/help/help-examples.php:27
+msgid "Online classes only with office hours"
+msgstr ""
+
+#: schedule/help/help-examples.php:28
+msgid "Online Classes Only with Office Hours Output"
+msgstr ""
+
+#: schedule/help/help-examples.php:28
+msgid "Online Classes Only with Office Hours Setup"
+msgstr ""
+
+#: schedule/help/help-examples.php:29
+msgid "Advising and Office Hours only"
+msgstr ""
+
+#: schedule/help/help-examples.php:30
+msgid "Advising and Office Hours Only Output"
+msgstr ""
+
+#: schedule/help/help-examples.php:30
+msgid "Advising and Office Hours Only Setup"
+msgstr ""
+
+#: schedule/help/help-examples.php:31
+msgid "Advising Hours only"
+msgstr ""
+
+#: schedule/help/help-examples.php:32
+msgid "Advising Hours Only Output"
+msgstr ""
+
+#: schedule/help/help-examples.php:32
+msgid "Advising Hours Only Setup"
+msgstr ""
+
+#: schedule/help/help-schedule.php:21
+msgid ""
+"The Add new Schedule option allows for adding a schedule to be viewed. An "
+"unlimited number of schedules can be added. For each new schedule, enter the "
+"desired information as shown below."
+msgstr ""
+
+#: schedule/help/help-schedule.php:26 schedule/help/help-schedule.php:47
+#: schedule/help/help-schedule.php:50
+#: schedule/post-type/class-fws-schedule-info.php:220
+msgid "Schedule Information"
+msgstr ""
+
+#: schedule/help/help-schedule.php:29 schedule/help/help-schedule.php:81
+#: schedule/help/help-schedule.php:84
+#: schedule/post-type/class-fws-schedule-office-hours.php:251
+msgid "Office Hours Information"
+msgstr ""
+
+#: schedule/help/help-schedule.php:32 schedule/help/help-schedule.php:127
+#: schedule/help/help-schedule.php:130
+#: schedule/post-type/class-fws-schedule-classes.php:288
+msgid "Classes Information"
+msgstr ""
+
+#: schedule/help/help-schedule.php:35 schedule/help/help-schedule.php:185
+#: schedule/help/help-schedule.php:187
+#: schedule/post-type/class-fws-schedule-options-metabox.php:344
+msgid "Schedule Options"
+msgstr ""
+
+#: schedule/help/help-schedule.php:38 schedule/help/help-schedule.php:267
+#: schedule/help/help-schedule.php:268 schedule/help/help-schedule.php:269
+#: schedule/help/help-schedule.php:270 schedule/help/help-settings.php:196
+#: schedule/post-type/class-fws-schedule-headings.php:73
+#: schedule/post-type/class-fws-schedule-headings.php:199
+#: schedule/settings/class-fws-settings-headings.php:38
+msgid "Heading Options"
+msgstr ""
+
+#: schedule/help/help-schedule.php:41 schedule/help/help-schedule.php:315
+#: schedule/post-type/class-fws-schedule-messages.php:115
+msgid "Schedule Messages"
+msgstr ""
+
+#: schedule/help/help-schedule.php:48
+msgid ""
+"The Schedule Information section allows setting the values relating to the "
+"schedule and faculty whenever a schedule is viewed."
+msgstr ""
+
+#: schedule/help/help-schedule.php:49 schedule/help/help-schedule.php:83
+#: schedule/help/help-schedule.php:129 schedule/help/help-schedule.php:186
+#: schedule/help/help-schedule.php:268 schedule/help/help-schedule.php:316
+#: schedule/help/help-settings.php:53 schedule/help/help-settings.php:78
+#: schedule/help/help-settings.php:111 schedule/help/help-settings.php:140
+#: schedule/help/help-settings.php:194 schedule/help/help-settings.php:223
+msgid "The"
+msgstr ""
+
+#: schedule/help/help-schedule.php:49 schedule/help/help-settings.php:31
+#: schedule/help/help-settings.php:53 schedule/help/help-settings.php:54
+msgid "Faculty Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:49 schedule/help/help-settings.php:53
+msgid ""
+"tab allows setting the default values relating to faculty whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:51 schedule/help/help-schedule.php:93
+#: schedule/help/help-schedule.php:139
+#: schedule/post-type/class-fws-schedule-classes.php:153
+#: schedule/post-type/class-fws-schedule-info.php:51
+#: schedule/post-type/class-fws-schedule-office-hours.php:158
+#: schedule/post-type/class-fws-schedule.php:946
+msgid "Start Date"
+msgstr ""
+
+#: schedule/help/help-schedule.php:53
+msgid ""
+"The start date for a schedule is displayed when the <strong>Show Schedule "
+"Heading</strong> option is checked. See the <em>Schedule Headings Defaults</"
+"em> panel. If the start date is not specified, then no start date will be "
+"displayed."
+msgstr ""
+
+#: schedule/help/help-schedule.php:55 schedule/help/help-schedule.php:97
+#: schedule/help/help-schedule.php:143
+#: schedule/post-type/class-fws-schedule-classes.php:164
+#: schedule/post-type/class-fws-schedule-info.php:57
+#: schedule/post-type/class-fws-schedule-office-hours.php:169
+#: schedule/post-type/class-fws-schedule.php:948
+msgid "End Date"
+msgstr ""
+
+#: schedule/help/help-schedule.php:57
+msgid ""
+"The end date for a schedule is displayed when the <strong>Show Schedule "
+"Heading</strong> option is checked. See the <em>Schedule Headings Defaults</"
+"em> panel. If the end date is not specified, then no end date will be "
+"displayed."
+msgstr ""
+
+#: schedule/help/help-schedule.php:59 schedule/help/help-schedule.php:85
+#: schedule/help/help-schedule.php:131 schedule/help/help-settings.php:55
+#: schedule/help/help-settings.php:80 schedule/help/help-settings.php:113
+#: schedule/post-type/class-fws-schedule-classes.php:55
+#: schedule/post-type/class-fws-schedule-info.php:69
+#: schedule/post-type/class-fws-schedule-office-hours.php:57
+#: schedule/post-type/class-fws-schedule.php:947
+#: schedule/settings/class-fws-settings-classes.php:41
+#: schedule/settings/class-fws-settings-faculty.php:42
+#: schedule/settings/class-fws-settings-officehours.php:41
+msgid "Start Time"
+msgstr ""
+
+#: schedule/help/help-schedule.php:61
+msgid ""
+"The start time for a schedule is displayed when the <strong>Include Schedule "
+"Times</strong> option is checked. See the <em>Schedule Headings Defaults</"
+"em> panel. If the start time has been set in the <em>Faculty</em> settings "
+"tab, then that start time is defaulted and can be overridden for each "
+"individual schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:63 schedule/help/help-schedule.php:89
+#: schedule/help/help-schedule.php:135 schedule/help/help-settings.php:59
+#: schedule/help/help-settings.php:84 schedule/help/help-settings.php:117
+#: schedule/post-type/class-fws-schedule-classes.php:105
+#: schedule/post-type/class-fws-schedule-info.php:124
+#: schedule/post-type/class-fws-schedule-office-hours.php:107
+#: schedule/post-type/class-fws-schedule.php:949
+#: schedule/settings/class-fws-settings-classes.php:91
+#: schedule/settings/class-fws-settings-faculty.php:97
+#: schedule/settings/class-fws-settings-officehours.php:91
+msgid "End Time"
+msgstr ""
+
+#: schedule/help/help-schedule.php:65
+msgid ""
+"The end time for a schedule is displayed when the <strong>Include Schedule "
+"Times</strong> option is checked. See the <em>Schedule Headings Defaults</"
+"em> panel. If the end time has been set in the <em>Faculty</em> settings "
+"tab, then that end time is defaulted and can be overridden for each "
+"individual schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:67 schedule/help/help-settings.php:63
+#: schedule/post-type/class-fws-schedule-info.php:185
+#: schedule/settings/class-fws-settings-faculty.php:158
+msgid "Name"
+msgstr ""
+
+#: schedule/help/help-schedule.php:69
+msgid ""
+"The name of the faculty member for a schedule is displayed when the "
+"<strong>Show Name</strong> option is checked. See the <em>Schedule Options</"
+"em> panel. If the name has been set in the <em>Faculty</em> settings tab, "
+"then that name is defaulted and can be overridden for each individual "
+"schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:73
+msgid ""
+"The title of the faculty member for a schedule is displayed when the "
+"<strong>Show Title</strong> option is checked. See the <em>Schedule Options</"
+"em> panel. If the title has been set in the <em>Faculty</em> settings tab, "
+"then that title is defaulted and can be overridden for each individual "
+"schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:75
+#: schedule/post-type/class-fws-schedule-info.php:207
+#: schedule/settings/class-fws-settings-faculty.php:178
+msgid "Photograph"
+msgstr ""
+
+#: schedule/help/help-schedule.php:77
+msgid ""
+"The photograph of the faculty member for a schedule is displayed when the "
+"<strong>Show Photograph</strong> option is checked. See the <em>Schedule "
+"Options</em> panel. If the photograph has been set in the <em>Faculty</em> "
+"settings tab, then that photograph is defaulted and can be overridden for "
+"each individual schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:82
+msgid ""
+"The Office Hours Information section allows setting the values relating to "
+"office hours blocks whenever a schedule is viewed. An unlimited number of "
+"office hours blocks can be added using the + button and when more than one "
+"office hours block has been added, the - button can be used to delete an "
+"office hours block. If multiple office hours blocks are added, they can be "
+"sorted using drag and drop. Sorting is not required for viewing a schedule "
+"as office hours blocks are sorted in time and date sequence within selected "
+"days of the week. If no day of the week is selected, then the office hours "
+"block will not be displayed in the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:83 schedule/help/help-settings.php:34
+#: schedule/help/help-settings.php:78 schedule/help/help-settings.php:79
+msgid "Office Hours Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:83 schedule/help/help-settings.php:78
+msgid ""
+"tab allows setting the default values relating to the first office hours "
+"block whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:87
+msgid ""
+"The start time for an office hours block. If the start time has been set in "
+"the <em>Office Hours</em> settings tab, then that start time is defaulted "
+"and can be overridden for the first office hours block. Subsequent office "
+"hours blocks will default to the start time from the already added block."
+msgstr ""
+
+#: schedule/help/help-schedule.php:91
+msgid ""
+"The end time for an office hours block. If the end time has been set in the "
+"<em>Office Hours</em> settings tab, then that end time is defaulted and can "
+"be overridden for the first office hours block. Subsequent office hours "
+"blocks will default to the end time from the already added block."
+msgstr ""
+
+#: schedule/help/help-schedule.php:95
+msgid ""
+"The start date for an office hours block. If no start date is entered, then "
+"the date line in the schedule for the office hours block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:99
+msgid ""
+"The end date for an office hours block. If no end date is entered, then the "
+"date line in the schedule for the office block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:101 schedule/help/help-settings.php:88
+#: schedule/post-type/class-fws-schedule-office-hours.php:180
+#: schedule/settings/class-fws-settings-officehours.php:144
+msgid "Block Title"
+msgstr ""
+
+#: schedule/help/help-schedule.php:103
+msgid ""
+"The title for an office hours block. If the title has been set in the "
+"<em>Office Hours</em> settings tab, then that title is defaulted and can be "
+"overridden for the first office hours block. Subsequent office hours blocks "
+"will have an empty block title field. If the title is not entered, then the "
+"title line in the schedule for the office hours block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:105 schedule/help/help-schedule.php:159
+#: schedule/help/help-settings.php:92 schedule/help/help-settings.php:121
+#: schedule/post-type/class-fws-schedule-classes.php:210
+#: schedule/post-type/class-fws-schedule-office-hours.php:192
+#: schedule/settings/class-fws-settings-classes.php:144
+#: schedule/settings/class-fws-settings-officehours.php:155
+msgid "Campus"
+msgstr ""
+
+#: schedule/help/help-schedule.php:107
+msgid ""
+"The campus for an office hours block. If the campus has been set in the "
+"<em>Office Hours</em> settings tab, then that campus is defaulted and can be "
+"overridden for the first office hours block. Subsequent office hours blocks "
+"will have an empty campus field. If the campus is not entered, then the "
+"campus/location line in the schedule for the office hours block will be "
+"omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:109 schedule/help/help-schedule.php:163
+#: schedule/help/help-schedule.php:234 schedule/help/help-settings.php:96
+#: schedule/help/help-settings.php:125
+#: schedule/post-type/class-fws-schedule-classes.php:223
+#: schedule/post-type/class-fws-schedule-office-hours.php:205
+#: schedule/settings/class-fws-settings-classes.php:156
+#: schedule/settings/class-fws-settings-officehours.php:167
+msgid "Location"
+msgstr ""
+
+#: schedule/help/help-schedule.php:111
+msgid ""
+"The location for an office hours block. If the location has been set in the "
+"<em>Office Hours</em> settings tab, then that location is defaulted and can "
+"be overridden for the first office hours block. Subsequent office hours "
+"blocks will have an empty location field. If the location is not entered, "
+"then the campus/location line in the schedule for the office hours block "
+"will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:113 schedule/help/help-settings.php:100
+#: schedule/post-type/class-fws-schedule-office-hours.php:213
+#: schedule/settings/class-fws-settings-officehours.php:174
+msgid "Office Hours Background Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:115
+msgid ""
+"The background color for an office hours block. If the background color has "
+"been set in the <em>Office Hours</em> settings tab, then that background "
+"color is defaulted and can be overridden for the first office hours block "
+"and subsequent office hours blocks. If the background color is not entered, "
+"then the background color of the active theme is used. If there are "
+"different block titles in a schedule it is recommended that different "
+"background and text colors be selected for each block title to make them "
+"stand out when viewing the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:117 schedule/help/help-settings.php:104
+#: schedule/post-type/class-fws-schedule-office-hours.php:219
+#: schedule/settings/class-fws-settings-officehours.php:180
+msgid "Office Hours Text Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:119
+msgid ""
+"The text color for an office hours block. If the text color has been set in "
+"the <em>Office Hours</em> settings tab, then that text color is defaulted "
+"and can be overridden for the first office hours block and subsequent office "
+"hours blocks. If the text color is not entered, then the text color of the "
+"active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:121
+#: schedule/post-type/class-fws-schedule-office-hours.php:226
+msgid "Day of Week"
+msgstr ""
+
+#: schedule/help/help-schedule.php:123
+msgid ""
+"The days of the week for an office hours block. Multiple days of the week "
+"for an office hours block can be selected by holding down the Ctrl/Cmd key "
+"while selecting a day. If no day of the week is selected, the entire office "
+"hours block is omitted when viewing the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:128
+msgid ""
+"The Classes Information section allows setting the values relating to "
+"classes blocks whenever a schedule is viewed. An unlimited number of class "
+"blocks can be added using the + button and when more than one class block "
+"has been added, the - button can be used to delete a class block. If "
+"multiple class blocks are added, they can be sorted using drag and drop. "
+"Sorting is not required as class blocks are sorted in time and date sequence "
+"within selected days of the week. If no day of the week is selected, then "
+"the class block will not be displayed in the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:129 schedule/help/help-settings.php:37
+#: schedule/help/help-settings.php:111 schedule/help/help-settings.php:112
+msgid "Classes Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:129 schedule/help/help-settings.php:111
+msgid ""
+"tab allows setting the default values relating to the first class whenever a "
+"new schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:133
+msgid ""
+"The start time for a class block. If the start time has been set in the "
+"<em>Class</em> settings tab, then that start time is defaulted and can be "
+"overridden for the first class block. Subsequent class blocks will default "
+"to the start time from the already added block."
+msgstr ""
+
+#: schedule/help/help-schedule.php:137
+msgid ""
+"The end time for a class block. If the end time has been set in the "
+"<em>Class</em> settings tab, then that end time is defaulted and can be "
+"overridden for the first class block. Subsequent class blocks will default "
+"to the end time from the already added block."
+msgstr ""
+
+#: schedule/help/help-schedule.php:141
+msgid ""
+"The start date for a class block. If no start date is entered, then the date "
+"line in the schedule for the class block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:145
+msgid ""
+"The end date for a class block. If no end date is entered, then the date "
+"line in the schedule for the office block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:147
+#: schedule/post-type/class-fws-schedule-classes.php:175
+msgid "Course Number/Name"
+msgstr ""
+
+#: schedule/help/help-schedule.php:149
+msgid ""
+"The course number/name for a class block. If the course number/name is not "
+"entered, then the course number/name line in the schedule for the class "
+"block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:151
+#: schedule/post-type/class-fws-schedule-classes.php:187
+msgid "Course Title"
+msgstr ""
+
+#: schedule/help/help-schedule.php:153
+msgid ""
+"The course title for a class block. If the course title is not entered, then "
+"the course title line in the schedule for the class block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:155
+#: schedule/post-type/class-fws-schedule-classes.php:198
+msgid "Reference/Section Number"
+msgstr ""
+
+#: schedule/help/help-schedule.php:157
+msgid ""
+"The reference/section number for a class block. If the reference/section "
+"number is not entered, then the reference/section number line in the "
+"schedule for the class block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:161
+msgid ""
+"The campus for a class block. If the campus has been set in the <em>Class</"
+"em> settings tab, then that campus is defaulted and can be overridden for "
+"the first class block. Subsequent class blocks will have an empty campus "
+"field. If the campus is not entered, then the campus/location line in the "
+"schedule for the class block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:165
+msgid ""
+"The location for a class block. If the location has been set in the "
+"<em>Class</em> settings tab, then that location is defaulted and can be "
+"overridden for the first class block. Subsequent class blocks will have an "
+"empty location field. If the location is not entered, then the campus/"
+"location line in the schedule for the class block will be omitted."
+msgstr ""
+
+#: schedule/help/help-schedule.php:167
+#: schedule/post-type/class-fws-schedule-classes.php:235
+msgid "Online Class"
+msgstr ""
+
+#: schedule/help/help-schedule.php:169
+msgid ""
+"Check <strong>Yes</strong> if the class is a fully online class that has no "
+"meetings at a location. Online classes are shown in a separate section of "
+"the schedule. If Yes is checked, the start/end time, campus, location and "
+"class days values are ignored."
+msgstr ""
+
+#: schedule/help/help-schedule.php:171 schedule/help/help-settings.php:129
+#: schedule/post-type/class-fws-schedule-classes.php:244
+#: schedule/settings/class-fws-settings-classes.php:169
+msgid "Class Background Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:173
+msgid ""
+"The background color for a class block. If the background color has been set "
+"in the <em>Class</em> settings tab, then that background color is defaulted "
+"and can be overridden for the first class block and subsequent class blocks. "
+"If the background color is not entered, then the background color of the "
+"active theme is used. It is recommended that different background and text "
+"colors be selected for each class to make them stand out when viewing the "
+"schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:175 schedule/help/help-settings.php:133
+#: schedule/post-type/class-fws-schedule-classes.php:250
+#: schedule/settings/class-fws-settings-classes.php:175
+msgid "Class Text Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:177
+msgid ""
+"The text color for a class block. If the text color has been set in the "
+"<em>Class</em> settings tab, then that text color is defaulted and can be "
+"overridden for the first class block and subsequent class blocks. If the "
+"text color is not entered, then the text color of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:179
+#: schedule/post-type/class-fws-schedule-classes.php:257
+msgid "Class Days"
+msgstr ""
+
+#: schedule/help/help-schedule.php:181
+msgid ""
+"The class days for a class block. Multiple class days for a class block can "
+"be selected by holding down the Ctrl/Cmd key while selecting a day. If no "
+"class day is selected, the entire class block is omitted when viewing the "
+"schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:186 schedule/help/help-settings.php:40
+#: schedule/help/help-settings.php:140 schedule/help/help-settings.php:141
+msgid "Options Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:186 schedule/help/help-settings.php:140
+msgid ""
+"tab allows setting the default values relating to options whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:188 schedule/help/help-settings.php:142
+#: schedule/post-type/class-fws-schedule-options-metabox.php:103
+#: schedule/settings/class-fws-settings-options.php:39
+msgid "Display Options"
+msgstr ""
+
+#: schedule/help/help-schedule.php:191
+#: schedule/post-type/class-fws-schedule-options-metabox.php:106
+#: schedule/settings/class-fws-settings-options.php:42
+msgid "Show Name"
+msgstr ""
+
+#: schedule/help/help-schedule.php:191
+msgid "Will show the name of the faculty at the top of the schedule"
+msgstr ""
+
+#: schedule/help/help-schedule.php:194
+#: schedule/post-type/class-fws-schedule-options-metabox.php:107
+#: schedule/settings/class-fws-settings-options.php:43
+msgid "Show Title"
+msgstr ""
+
+#: schedule/help/help-schedule.php:194
+msgid "Will show the title of the faculty at the top of the schedule"
+msgstr ""
+
+#: schedule/help/help-schedule.php:197
+#: schedule/post-type/class-fws-schedule-options-metabox.php:108
+#: schedule/settings/class-fws-settings-options.php:44
+msgid "Use Title Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:197
+msgid ""
+"Will use the background and text colors below (if set) for the name and "
+"title if Show Name or Show Title are checked"
+msgstr ""
+
+#: schedule/help/help-schedule.php:200
+#: schedule/post-type/class-fws-schedule-options-metabox.php:109
+#: schedule/settings/class-fws-settings-options.php:45
+msgid "Use Padding"
+msgstr ""
+
+#: schedule/help/help-schedule.php:200
+msgid ""
+"Will use the padding below for the schedule and blocks containing columns"
+msgstr ""
+
+#: schedule/help/help-schedule.php:203
+#: schedule/post-type/class-fws-schedule-options-metabox.php:110
+#: schedule/settings/class-fws-settings-options.php:46
+msgid "Use Column Gap"
+msgstr ""
+
+#: schedule/help/help-schedule.php:203
+msgid ""
+"Will use the column gap below for the size of the gap, horizontally and "
+"vertically, between blocks"
+msgstr ""
+
+#: schedule/help/help-schedule.php:206
+#: schedule/post-type/class-fws-schedule-options-metabox.php:111
+#: schedule/settings/class-fws-settings-options.php:47
+msgid "Break Long Lines"
+msgstr ""
+
+#: schedule/help/help-schedule.php:206
+msgid ""
+"Will break long lines in a block that tend to automatically wrap the more "
+"days of the week that has office hours and/or classes. Dates, times and "
+"location lines are affected."
+msgstr ""
+
+#: schedule/help/help-schedule.php:209
+#: schedule/post-type/class-fws-schedule-options-metabox.php:112
+#: schedule/settings/class-fws-settings-options.php:48
+msgid "Use Schedule Background Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:209
+msgid ""
+"Will use the background and text colors below (if set) for the entire "
+"schedule"
+msgstr ""
+
+#: schedule/help/help-schedule.php:212 schedule/help/help-settings.php:146
+#: schedule/post-type/class-fws-schedule-options-metabox.php:127
+#: schedule/settings/class-fws-settings-options.php:63
+msgid "Schedule Padding"
+msgstr ""
+
+#: schedule/help/help-schedule.php:214
+msgid ""
+"The amount of padding between the edges of the schedule and the content "
+"within the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:217 schedule/help/help-settings.php:151
+#: schedule/post-type/class-fws-schedule-options-metabox.php:150
+#: schedule/settings/class-fws-settings-options.php:86
+msgid "Block Padding"
+msgstr ""
+
+#: schedule/help/help-schedule.php:219
+msgid ""
+"The amount of padding between the edges of the schedule and the content "
+"within an office hours or class block."
+msgstr ""
+
+#: schedule/help/help-schedule.php:221 schedule/help/help-settings.php:155
+#: schedule/post-type/class-fws-schedule-options-metabox.php:173
+#: schedule/settings/class-fws-settings-options.php:109
+msgid "Column Gap"
+msgstr ""
+
+#: schedule/help/help-schedule.php:223
+msgid "The gap between blocks, horizontally and vertically, in the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:225 schedule/help/help-settings.php:159
+#: schedule/post-type/class-fws-schedule-options-metabox.php:197
+#: schedule/settings/class-fws-settings-options.php:133
+msgid "Photograph Display"
+msgstr ""
+
+#: schedule/help/help-schedule.php:228
+msgid "Size"
+msgstr ""
+
+#: schedule/help/help-schedule.php:228
+msgid "The size of the photograph"
+msgstr ""
+
+#: schedule/help/help-schedule.php:231
+msgid "Show photograph"
+msgstr ""
+
+#: schedule/help/help-schedule.php:231
+msgid "Check if the photograph is to be displayed when viewing the schedule"
+msgstr ""
+
+#: schedule/help/help-schedule.php:234
+msgid "The location in the schedule where the photograph should be displayed"
+msgstr ""
+
+#: schedule/help/help-schedule.php:237 schedule/help/help-settings.php:163
+msgid "Title Background Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:239
+msgid ""
+"The background color for the name and title headings. If the background "
+"color has been set in the <em>Options</em> settings tab, then that "
+"background color is defaulted and can be overridden for the schedule. If the "
+"background color is not entered, then the background color of the active "
+"theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:241 schedule/help/help-settings.php:167
+msgid "Title Text Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:243
+msgid ""
+"The text color for the name and title headings. If the text color has been "
+"set in the <em>Options</em> settings tab, then that text color is defaulted "
+"and can be overridden for the schedule. If the text color is not entered, "
+"then the text color of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:245 schedule/help/help-settings.php:171
+msgid "Schedule Background Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:247
+msgid ""
+"The background color for the schedule. If the background color has been set "
+"in the <em>Options</em> settings tab, then that background color is "
+"defaulted and can be overridden for the schedule. If the background color is "
+"not entered, then the background color of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:249 schedule/help/help-settings.php:175
+msgid "Schedule Text Color"
+msgstr ""
+
+#: schedule/help/help-schedule.php:251
+msgid ""
+"The text color for the schedule. If the text color has been set in the "
+"<em>Options</em> settings tab, then that text color is defaulted and can be "
+"overridden for schedule. If the text color is not entered, then the text "
+"color of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:253 schedule/help/help-settings.php:179
+#: schedule/post-type/class-fws-schedule-options-metabox.php:265
+#: schedule/settings/class-fws-settings-options.php:200
+msgid "Alignment"
+msgstr ""
+
+#: schedule/help/help-schedule.php:255
+msgid ""
+"The alignment of the entire schedule. Note that alignment support is "
+"required in the theme being used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:257 schedule/help/help-settings.php:183
+#: schedule/post-type/class-fws-schedule-options-metabox.php:280
+#: schedule/settings/class-fws-settings-options.php:215
+msgid "Schedule Date and Time Format"
+msgstr ""
+
+#: schedule/help/help-schedule.php:259
+msgid "The date and time format of the schedule title. If "
+msgstr ""
+
+#: schedule/help/help-schedule.php:259 schedule/help/help-schedule.php:263
+#: schedule/help/help-settings.php:185
+msgid "Site Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:259 schedule/help/help-schedule.php:263
+#: schedule/help/help-settings.php:185
+msgid " is selected, the settings per the "
+msgstr ""
+
+#: schedule/help/help-schedule.php:259 schedule/help/help-schedule.php:263
+#: schedule/help/help-settings.php:185
+msgid "General"
+msgstr ""
+
+#: schedule/help/help-schedule.php:259 schedule/help/help-schedule.php:263
+#: schedule/help/help-settings.php:185
+msgid "are used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:261 schedule/help/help-settings.php:187
+#: schedule/post-type/class-fws-schedule-options-metabox.php:311
+#: schedule/settings/class-fws-settings-options.php:246
+msgid "Block Date and Time Format"
+msgstr ""
+
+#: schedule/help/help-schedule.php:263
+msgid ""
+"The date and time format of the office hours and class block content. If "
+msgstr ""
+
+#: schedule/help/help-schedule.php:268 schedule/help/help-settings.php:194
+msgid ""
+"tab allows setting the default values relating to headings whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:273
+#: schedule/post-type/class-fws-schedule-headings.php:76
+#: schedule/settings/class-fws-settings-headings.php:41
+msgid "Show Schedule Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:273
+msgid ""
+"Determines if the schedule heading with dates (optionally times) are "
+"displayed"
+msgstr ""
+
+#: schedule/help/help-schedule.php:276
+#: schedule/post-type/class-fws-schedule-headings.php:77
+#: schedule/settings/class-fws-settings-headings.php:42
+msgid "Show Classes Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:276
+msgid "Determines if the classes heading is displayed"
+msgstr ""
+
+#: schedule/help/help-schedule.php:279
+#: schedule/post-type/class-fws-schedule-headings.php:78
+#: schedule/settings/class-fws-settings-headings.php:43
+msgid "Show Online Classes Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:279
+msgid "Determines if the online classes heading is displayed"
+msgstr ""
+
+#: schedule/help/help-schedule.php:282
+#: schedule/post-type/class-fws-schedule-headings.php:79
+#: schedule/settings/class-fws-settings-headings.php:44
+msgid "Include Schedule Times"
+msgstr ""
+
+#: schedule/help/help-schedule.php:282
+msgid ""
+"Determines if schedule start and end times are included in the schedule "
+"heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:285 schedule/help/help-settings.php:200
+msgid "Heading Text"
+msgstr ""
+
+#: schedule/help/help-schedule.php:288
+#: schedule/post-type/class-fws-schedule-headings.php:96
+#: schedule/settings/class-fws-settings-headings.php:61
+msgid "Schedule Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:288
+msgid "The text before the dates in the schedule heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:291
+msgid "Classes Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:291
+msgid "The text for the heading before office hours and classes blocks"
+msgstr ""
+
+#: schedule/help/help-schedule.php:294
+#: schedule/post-type/class-fws-schedule-headings.php:108
+#: schedule/settings/class-fws-settings-headings.php:73
+msgid "Online Classes Heading"
+msgstr ""
+
+#: schedule/help/help-schedule.php:294
+msgid "The text for the heading before online classes blocks"
+msgstr ""
+
+#: schedule/help/help-schedule.php:297 schedule/help/help-settings.php:204
+#: schedule/post-type/class-fws-schedule-headings.php:117
+#: schedule/settings/class-fws-settings-headings.php:82
+msgid "Schedule Heading Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:299
+msgid ""
+"The background and text colors for the schedule heading. If the background "
+"and text colors have been set in the <em>Options</em> settings tab, then "
+"those background and text colors are defaulted and can be overridden for the "
+"schedule. If the background and text colors are not entered, then the "
+"background and text colors of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:301 schedule/help/help-settings.php:208
+#: schedule/post-type/class-fws-schedule-headings.php:137
+#: schedule/settings/class-fws-settings-headings.php:102
+msgid "Classes and Office Hours Heading Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:303
+msgid ""
+"The background and text colors for the classes and office hours heading. If "
+"the background and text colors have been set in the <em>Options</em> "
+"settings tab, then those background and text colors are defaulted and can be "
+"overridden for the schedule. If the background and text colors are not "
+"entered, then the background and text colors of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:305 schedule/help/help-settings.php:212
+#: schedule/post-type/class-fws-schedule-headings.php:157
+#: schedule/settings/class-fws-settings-headings.php:122
+msgid "Online Classes Heading Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:307
+msgid ""
+"The background and text colors for the online classes heading. If the "
+"background and text colors have been set in the <em>Options</em> settings "
+"tab, then those background and text colors are defaulted and can be "
+"overridden for the schedule. If the background and text colors are not "
+"entered, then the background and text colors of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:309 schedule/help/help-settings.php:216
+#: schedule/post-type/class-fws-schedule-headings.php:177
+#: schedule/settings/class-fws-settings-headings.php:142
+msgid "Day of Week Heading Colors"
+msgstr ""
+
+#: schedule/help/help-schedule.php:311
+msgid ""
+"The background and text colors for the day of week heading. If the "
+"background and text colors have been set in the <em>Options</em> settings "
+"tab, then those background and text colors are defaulted and can be "
+"overridden for the schedule. If the background and text colors are not "
+"entered, then the background and text colors of the active theme is used."
+msgstr ""
+
+#: schedule/help/help-schedule.php:316 schedule/help/help-schedule.php:317
+#: schedule/help/help-settings.php:46 schedule/help/help-settings.php:223
+#: schedule/help/help-settings.php:224
+msgid "Messages Settings"
+msgstr ""
+
+#: schedule/help/help-schedule.php:316 schedule/help/help-settings.php:223
+msgid ""
+"tab allows setting the default values relating to messages whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-schedule.php:318 schedule/help/help-settings.php:225
+#: schedule/post-type/class-fws-schedule-messages.php:45
+#: schedule/settings/class-fws-settings-messages.php:38
+msgid "Show Before Message"
+msgstr ""
+
+#: schedule/help/help-schedule.php:320
+msgid ""
+"Determines whether the before message should be displayed before the "
+"schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:322 schedule/help/help-settings.php:229
+#: schedule/post-type/class-fws-schedule-messages.php:57
+#: schedule/settings/class-fws-settings-messages.php:49
+msgid "Before Message Alignment"
+msgstr ""
+
+#: schedule/help/help-schedule.php:324
+msgid ""
+"Determines how the before message should be aligned within the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:326 schedule/help/help-settings.php:233
+#: schedule/post-type/class-fws-schedule-messages.php:73
+#: schedule/settings/class-fws-settings-messages.php:65
+msgid "Before Message"
+msgstr ""
+
+#: schedule/help/help-schedule.php:328
+msgid ""
+"The before message displayed after the name, title and schedule heading but "
+"before the schedule. The <strong>Show Before Message</strong> option must be "
+"<strong>Yes</strong> for the after message to display."
+msgstr ""
+
+#: schedule/help/help-schedule.php:330 schedule/help/help-settings.php:237
+#: schedule/post-type/class-fws-schedule-messages.php:79
+#: schedule/settings/class-fws-settings-messages.php:70
+msgid "Show After Message"
+msgstr ""
+
+#: schedule/help/help-schedule.php:332
+msgid ""
+"Determines whether the after message should be displayed after the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:334 schedule/help/help-settings.php:241
+#: schedule/post-type/class-fws-schedule-messages.php:91
+#: schedule/settings/class-fws-settings-messages.php:81
+msgid "After Message Alignment"
+msgstr ""
+
+#: schedule/help/help-schedule.php:336
+msgid "Determines how the after message should be aligned within the schedule."
+msgstr ""
+
+#: schedule/help/help-schedule.php:338 schedule/help/help-settings.php:245
+#: schedule/post-type/class-fws-schedule-messages.php:107
+#: schedule/settings/class-fws-settings-messages.php:97
+msgid "After Message"
+msgstr ""
+
+#: schedule/help/help-schedule.php:340
+msgid ""
+"The after message displayed after the schedule. The <strong>Show After "
+"Message</strong> option must be <strong>Yes</strong> for the after message "
+"to display."
+msgstr ""
+
+#: schedule/help/help-settings.php:21
+msgid ""
+"The Settings page is where defaults for information that is entered in a "
+"Schedule can be set. These defaults are the initial values for the "
+"corresponding information on a Schedule. The initial values can be "
+"overridden on the Settings page. <strong>Note:</strong> Once a settings tab "
+"has been saved, there is no way of restoring the original value."
+msgstr ""
+
+#: schedule/help/help-settings.php:23
+msgid "Note:"
+msgstr ""
+
+#: schedule/help/help-settings.php:24
+msgid "The "
+msgstr ""
+
+#: schedule/help/help-settings.php:25
+msgid "Save Changes"
+msgstr ""
+
+#: schedule/help/help-settings.php:26
+msgid ""
+" option must be selected on each settings tab to store the changes made on "
+"that tab. Selecting another tab when settings changes have been made without "
+"saving will result in the changes being lost."
+msgstr ""
+
+#: schedule/help/help-settings.php:43 schedule/help/help-settings.php:194
+#: schedule/help/help-settings.php:195
+msgid "Headings Settings"
+msgstr ""
+
+#: schedule/help/help-settings.php:52
+msgid "Faculty Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:57
+msgid ""
+"Select the default start time for a schedule. The default start time is used "
+"to set the start time whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:61
+msgid ""
+"Select the default end time for a schedule. The default end time is used to "
+"set the end time whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:65
+msgid ""
+"Enter the default name for a schedule. The default name is used to set the "
+"name whenever a new schedule is added. The default name is optional and can "
+"be overridden when adding a schedule."
+msgstr ""
+
+#: schedule/help/help-settings.php:69
+msgid ""
+"Enter the default title for a schedule. The default title is used to set the "
+"title whenever a new schedule is added. The default title is optional and "
+"can be overridden when adding a schedule."
+msgstr ""
+
+#: schedule/help/help-settings.php:71
+msgid "Photo"
+msgstr ""
+
+#: schedule/help/help-settings.php:73
+msgid ""
+"Select the default photo for a schedule. The default photo is used to set "
+"the photo whenever a new schedule is added. The default photo is optional "
+"and can be overridden when adding a schedule."
+msgstr ""
+
+#: schedule/help/help-settings.php:77
+msgid "Office Hours Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:82
+msgid ""
+"Select the default start time for the first office hours block. The default "
+"start time is used to set the start time in the first office hours block "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:86
+msgid ""
+"Select the default end time for the first office hours block. The default "
+"end time is used to set the end time in the first office hours block "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:90
+msgid ""
+"Enter the default block title for the first office hours block. The default "
+"block title is used to set the block title in the first office hours block "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:94
+msgid ""
+"Enter the default campus for the first office hours block. The default "
+"campus is used to set the campus in the first office hours block whenever a "
+"new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:98
+msgid ""
+"Enter the default location for the first office hours block. The default "
+"location is used to set the location in the first office hours block "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:102
+msgid ""
+"Select the default background color for the first office hours block. The "
+"default background color is used to set the background color in the first "
+"office hours block whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:106
+msgid ""
+"Select the default text color for the first office hours block. The default "
+"text color is used to set the text color in the first office hours block "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:110
+msgid "Classes Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:115
+msgid ""
+"Select the default start time for the first class. The default start time is "
+"used to set the start time in the first class whenever a new schedule is "
+"added."
+msgstr ""
+
+#: schedule/help/help-settings.php:119
+msgid ""
+"Select the default end time for the first class. The default end time is "
+"used to set the end time in the first class whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:123
+msgid ""
+"Enter the default campus for the first class. The default campus is used to "
+"set the campus in the first class whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:127
+msgid ""
+"Enter the default location for the first class. The default location is used "
+"to set the location in the first class whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:131
+msgid ""
+"Select the default background color for the first class. The default "
+"background color is used to set the background color in the first class "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:135
+msgid ""
+"Select the default text color for the first class. The default text color is "
+"used to set the text color in the first class whenever a new schedule is "
+"added."
+msgstr ""
+
+#: schedule/help/help-settings.php:139
+msgid "Options Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:144
+msgid ""
+"Check the items that should be displayed or options that should be used when "
+"a schedule is viewed. The default display options are used to set the "
+"display options whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:148
+msgid ""
+"Enter the default amount of padding around the entire schedule. The default "
+"schedule padding is used to set the schedule padding whenever a new schedule "
+"is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:153
+msgid ""
+"Enter the default amount of padding around the content in an office hours or "
+"class block. The default block padding is used to set the block padding "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:157
+msgid ""
+"Enter the default size of the gaps between office hours and class blocks. "
+"The default column gap is used to set the column gap whenever a new schedule "
+"is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:161
+msgid ""
+"Select the default display size of the photo, check whether the photo should "
+"be displayed and where the photo should displayed. The default photo options "
+"are used to set the photo options whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:165
+msgid ""
+"Select the default background color of the title for the schedule. The "
+"default background color is used to set the background color for the "
+"schedule title whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:169
+msgid ""
+"Select the default text color of the title for the schedule. The default "
+"text color is used to set the text color for the schedule title whenever a "
+"new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:173
+msgid ""
+"Select the default background color of the entire schedule. The default "
+"background color is used to set the background color for the entire schedule "
+"whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:177
+msgid ""
+"Select the default text color of the entire schedule. The default text color "
+"is used to set the text color for the entire schedule whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:181
+msgid ""
+"Select the default alignment of the entire schedule. The default alignment "
+"is used to set the alignment for the entire schedule whenever a new schedule "
+"is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:185
+msgid ""
+"Select the default date and time format of the schedule title. The default "
+"date and time format is used to set the date and time format for the "
+"schedule title whenever a new schedule is added. If "
+msgstr ""
+
+#: schedule/help/help-settings.php:189
+msgid ""
+"Select the default date and time format of the office hours and classes "
+"blocks. The default date and time format is used to set the date and time "
+"format for the office hours and classes blocks whenever a new schedule is "
+"added."
+msgstr ""
+
+#: schedule/help/help-settings.php:193
+msgid "Headings Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:198
+msgid ""
+"Check the default headings that should be displayed in the schedule. The "
+"default headings are used to set which headings should be displayed in a "
+"schedule whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:202
+msgid ""
+"Enter the default text for headings that should be displayed in the "
+"schedule. The default headings text are used to set the text for headings "
+"that should be displayed in a schedule whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:206
+msgid ""
+"Select the default background and text colors for schedule title heading in "
+"the schedule. The default background and text color is used to set the "
+"background and text color for the schedule title heading whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:210
+msgid ""
+"Select the default background and text colors for the classes and office "
+"hours heading in the schedule. The default background and text color is used "
+"to set the background and text color for the classes and office hours "
+"heading whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:214
+msgid ""
+"Select the default background and text colors for the online classes heading "
+"in the schedule. The default background and text color is used to set the "
+"background and text color for the online classes heading whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:218
+msgid ""
+"Select the default background and text colors for the day of week headings "
+"in the schedule. The default background and text color is used to set the "
+"background and text color for the day of week headings whenever a new "
+"schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:222
+msgid "Messages Settings Tab"
+msgstr ""
+
+#: schedule/help/help-settings.php:227
+msgid ""
+"Select whether the before message should be displayed in the schedule. The "
+"default show before message setting is used to set whether the show before "
+"message options is on or off whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:231
+msgid ""
+"Select how the before message should be aligned within the schedule. The "
+"default before message alignment setting is used to set how the before "
+"message is aligned whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:235
+msgid ""
+"Enter the before message for a schedule. The default before message value is "
+"used to set the before message whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:239
+msgid ""
+"Select whether the after message should be displayed in the schedule. The "
+"default show after message setting is used to set whether the show after "
+"message options is on or off whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:243
+msgid ""
+"Select how the after message should be aligned within the schedule. The "
+"default after message alignment setting is used to set how the after message "
+"is aligned whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-settings.php:247
+msgid ""
+"Enter the after message for a schedule. The default after message value is "
+"used to set the after message whenever a new schedule is added."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:21
+msgid ""
+"Shortcodes are used to display details of schedules added. Shortcodes can be "
+"used in either Posts or Pages depending on how schedule information is to be "
+"presented on a site. For posts/pages using the classic editor, add the "
+"appropriate shortcode and it's attributes to the post/page. For the block "
+"editor, first add a shortcode block and then enter the appropriate shortcode "
+"and it's attributes to the shortcode block."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:22
+#: schedule/post-type/class-fws-schedule.php:952
+msgid "Shortcode"
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:24
+msgid "Shortcode Attributes"
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:27
+msgid "The id allocated by the system to a specific schedule"
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:30
+msgid ""
+"Determines which schedules and blocks to include by date. Valid values are "
+"<strong>all | now | date</strong> where <em>now</em> will be set to the "
+"current date and <em>date</em> is a date in the format YYYY-MM-DD. If not "
+"specified, defaults to <strong>all</strong>."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:33
+msgid ""
+"While both id and include attributes are optional, at least one or both must "
+"be specified. i.e. Either id must be specified, or include specified, or "
+"both specified. If id only is specified, then the schedule with that id is "
+"displayed even if the schedule is in draft mode. If only include is "
+"specified, the value cannot be all. If only include is specified with a "
+"value of now or a valid date, then only schedules that have been published "
+"will be displayed. If more than one published schedule has the include date, "
+"or when now specified - the current date, between the start and end dates of "
+"the schedule, all matching schedules will be displayed."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:34
+msgid ""
+"If both id and include are specified and include is all, then all blocks "
+"will be displayed for the schedule with the specified id. If include is now "
+"or an included date, then only blocks where the current date or included "
+"date is between the start and end date of the block will be displayed. If a "
+"block has no start or end date, it will be displayed irrespective of the "
+"date specified."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:35
+msgid ""
+"If a schedule is previewed, then the id is automatically set to the id of "
+"the schedule being previewed and include will always be all."
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:36
+msgid "Example"
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:37
+msgid "Shortcode Preview"
+msgstr ""
+
+#: schedule/help/help-shortcodes.php:38
+msgid "Click image for a larger view"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:21
+msgid ""
+"If you have questions or need assistance, check the FAQs, Tips or Errors "
+"sections below."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:22
+msgid "FAQs"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:25
+msgid ""
+"My office hours and classes change during a semester. What is the best way "
+"to setup a weekly schedule?"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:27
+msgid ""
+"For each start and end date period, add a new schedule with the appropriate "
+"office hours and classes for that date period. Then use the"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:27
+msgid ""
+"shortcode attribute to have the appropriate schedule shown for the current "
+"date. See \"Setup a schedule display page once\" in the Tips section."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:31
+msgid ""
+"I am a faculty advisor with set advising hours. How do I include the "
+"advising times in my schedule?"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:33
+msgid ""
+"Either add a separate office hours block with a different block title and "
+"background color for each advising time block or add a new schedule with the "
+"same start and end dates as the regular office hours and classes schedule "
+"with the advising time blocks."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:37
+msgid "Is multisite supported?"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:39
+msgid ""
+"Yes. Each site in a multisite will have separate settings and schedules."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:43
+msgid "Is any data deleted when the plugin is deactivated?"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:45
+msgid ""
+"No. All schedule settings and all schedules added will be kept. On a "
+"multisite all schedule settings and all schedules added will be kept on all "
+"sites within the multisite network."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:49
+msgid "Is any data deleted when the plugin is deleted?"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:51
+msgid ""
+"Yes. All schedule settings and all schedules added will be deleted. On a "
+"multisite all schedule settings and all schedules added will be deleted from "
+"all sites within the multisite network."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:53
+msgid "Tips"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:56
+msgid "Choose settings first."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:58
+msgid "Take the time to choose default"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:58
+msgid ""
+"before creating schedules as the amount time of typing and choosing options "
+"can be significantly reduced."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:62
+msgid "Setup a schedule display page once."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:64
+msgid ""
+"Create a Page with a generic title such as Current Schedule and add the "
+"shortcode"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:64
+msgid ""
+"to the page. Then each term/semester/session, add a Schedule with the "
+"appropriate start and end dates. The shortcode will determine which schedule "
+"is current based on the current date falling within the start and end date "
+"of the schedule."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:66
+msgid "Errors"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:69
+#: schedule/post-type/schedule-shortcodes.php:139
+msgid "Something went wrong. Please check the"
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:69
+#: schedule/post-type/schedule-shortcodes.php:139
+msgid "shortcode attributes for valid data."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:71
+msgid ""
+"Likely issue is that the id attribute value refers to a schedule that does "
+"not exist."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:75
+#: schedule/post-type/schedule-shortcodes.php:110
+msgid "No schedules found to display."
+msgstr ""
+
+#: schedule/help/help-tips-faq.php:77
+msgid ""
+"Likely issue is that there are no schedules for the current date or "
+"specified date. If a schedule does exist for the current or specified date, "
+"check that it has been published."
+msgstr ""
+
+#: schedule/help/help-videos.php:22
+msgid "Installation"
+msgstr ""
+
+#: schedule/help/help-videos.php:26
+#: schedule/post-type/class-fws-schedule.php:837
+#: schedule/post-type/class-fws-schedule.php:871
+msgid "Schedules"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:47
+msgid "Classes Block"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:48
+msgid "Select the '+' button to add multiple Classes blocks."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:56
+#: schedule/settings/class-fws-settings-classes.php:42
+msgid "Select the minutes, hours and AM/PM start time of this class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:106
+#: schedule/settings/class-fws-settings-classes.php:92
+msgid "Select the minutes, hours and AM/PM end time of this Class block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:154
+msgid "Select the start date of this class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:165
+msgid "Select the end date of this class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:176
+msgid "Enter the course number or course name of the class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:188
+msgid "Enter the course title of the class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:199
+msgid "Enter the reference or section number of the class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:211
+#: schedule/settings/class-fws-settings-classes.php:145
+msgid "Enter the campus where this class will take place."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:224
+#: schedule/settings/class-fws-settings-classes.php:157
+msgid "Enter the location where this class will take place."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:236
+msgid ""
+"Check to indicate that the class is an online class. If checked the location "
+"and class days are ignored."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:243
+#: schedule/settings/class-fws-settings-classes.php:168
+msgid "Select the background color of the class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:251
+#: schedule/settings/class-fws-settings-classes.php:176
+msgid "Select the text color of the class."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:258
+msgid "Select the days the class meets."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:259
+msgid "Hold down the <code>Ctrl/Cmd</code> key to select multiple days."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:266
+#: schedule/post-type/class-fws-schedule-office-hours.php:229
+#: schedule/post-type/class-fws-schedule.php:27
+msgid "Monday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:267
+#: schedule/post-type/class-fws-schedule-office-hours.php:230
+#: schedule/post-type/class-fws-schedule.php:28
+msgid "Tuesday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:268
+#: schedule/post-type/class-fws-schedule-office-hours.php:231
+#: schedule/post-type/class-fws-schedule.php:29
+msgid "Wednesday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:269
+#: schedule/post-type/class-fws-schedule-office-hours.php:232
+#: schedule/post-type/class-fws-schedule.php:30
+msgid "Thursday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:270
+#: schedule/post-type/class-fws-schedule-office-hours.php:233
+#: schedule/post-type/class-fws-schedule.php:31
+msgid "Friday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:271
+#: schedule/post-type/class-fws-schedule-office-hours.php:234
+#: schedule/post-type/class-fws-schedule.php:32
+msgid "Saturday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-classes.php:272
+#: schedule/post-type/class-fws-schedule-office-hours.php:235
+#: schedule/post-type/class-fws-schedule.php:33
+msgid "Sunday"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:74
+#: schedule/post-type/class-fws-schedule-options-metabox.php:104
+#: schedule/settings/class-fws-settings-headings.php:39
+#: schedule/settings/class-fws-settings-options.php:40
+msgid "Check the desired elements to display."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:91
+#: schedule/settings/class-fws-settings-headings.php:56
+msgid "Headings Text"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:92
+#: schedule/settings/class-fws-settings-headings.php:57
+msgid "Enter the text for display headings of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:102
+#: schedule/settings/class-fws-settings-headings.php:67
+msgid "Classes and Office Hours Heading"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:118
+#: schedule/settings/class-fws-settings-headings.php:83
+msgid ""
+"Enter the background and text colors for the display of the schedule heading."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:122
+#: schedule/post-type/class-fws-schedule-headings.php:142
+#: schedule/post-type/class-fws-schedule-headings.php:162
+#: schedule/post-type/class-fws-schedule-headings.php:182
+#: schedule/post-type/class-fws-schedule-options-metabox.php:230
+#: schedule/post-type/class-fws-schedule-options-metabox.php:250
+#: schedule/settings/class-fws-settings-headings.php:87
+#: schedule/settings/class-fws-settings-headings.php:107
+#: schedule/settings/class-fws-settings-headings.php:127
+#: schedule/settings/class-fws-settings-headings.php:147
+#: schedule/settings/class-fws-settings-options.php:165
+#: schedule/settings/class-fws-settings-options.php:185
+msgid "Background Color"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:128
+#: schedule/post-type/class-fws-schedule-headings.php:148
+#: schedule/post-type/class-fws-schedule-headings.php:168
+#: schedule/post-type/class-fws-schedule-headings.php:188
+#: schedule/post-type/class-fws-schedule-options-metabox.php:236
+#: schedule/post-type/class-fws-schedule-options-metabox.php:256
+#: schedule/settings/class-fws-settings-headings.php:93
+#: schedule/settings/class-fws-settings-headings.php:113
+#: schedule/settings/class-fws-settings-headings.php:133
+#: schedule/settings/class-fws-settings-headings.php:153
+#: schedule/settings/class-fws-settings-options.php:171
+#: schedule/settings/class-fws-settings-options.php:191
+msgid "Text Color"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:138
+#: schedule/settings/class-fws-settings-headings.php:103
+msgid ""
+"Enter the background and text colors for the display of the classes and "
+"office hours heading."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:158
+#: schedule/settings/class-fws-settings-headings.php:123
+msgid "Enter the text colors for display headings of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-headings.php:178
+#: schedule/settings/class-fws-settings-headings.php:143
+msgid ""
+"Enter the text colors for day of the week display headings of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:52
+msgid "Enter the start date of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:58
+msgid "Enter the end date of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:70
+#: schedule/settings/class-fws-settings-faculty.php:43
+msgid "Select the minutes, hours and AM/PM start time of this schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:125
+#: schedule/settings/class-fws-settings-faculty.php:98
+msgid "Select the minutes, hours and AM/PM end time of this schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:186
+#: schedule/settings/class-fws-settings-faculty.php:159
+msgid "Enter the name of the faculty."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-info.php:196
+#: schedule/settings/class-fws-settings-faculty.php:168
+msgid "Enter the title of the faculty."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:46
+msgid "Choose whether the before message should be displayed in the schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:58
+#: schedule/settings/class-fws-settings-messages.php:50
+msgid ""
+"Choose whether the before message should be aligned left, right, center, "
+"justified or have no alignment"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:60
+#: schedule/post-type/class-fws-schedule-messages.php:94
+#: schedule/post-type/class-fws-schedule-options-metabox.php:272
+#: schedule/settings/class-fws-settings-messages.php:52
+#: schedule/settings/class-fws-settings-messages.php:84
+#: schedule/settings/class-fws-settings-options.php:207
+msgid "Left"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:61
+#: schedule/post-type/class-fws-schedule-messages.php:95
+#: schedule/post-type/class-fws-schedule-options-metabox.php:271
+#: schedule/settings/class-fws-settings-messages.php:53
+#: schedule/settings/class-fws-settings-messages.php:85
+#: schedule/settings/class-fws-settings-options.php:206
+msgid "Center"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:62
+#: schedule/post-type/class-fws-schedule-messages.php:96
+#: schedule/post-type/class-fws-schedule-options-metabox.php:273
+#: schedule/settings/class-fws-settings-messages.php:54
+#: schedule/settings/class-fws-settings-messages.php:86
+#: schedule/settings/class-fws-settings-options.php:208
+msgid "Right"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:63
+#: schedule/post-type/class-fws-schedule-messages.php:97
+#: schedule/settings/class-fws-settings-messages.php:55
+#: schedule/settings/class-fws-settings-messages.php:87
+msgid "Justified"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:64
+#: schedule/post-type/class-fws-schedule-messages.php:98
+#: schedule/post-type/class-fws-schedule-options-metabox.php:274
+#: schedule/settings/class-fws-settings-messages.php:56
+#: schedule/settings/class-fws-settings-messages.php:88
+#: schedule/settings/class-fws-settings-options.php:209
+msgid "None"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:72
+#: schedule/settings/class-fws-settings-messages.php:64
+msgid "Enter the content to be displayed before the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:80
+msgid "Choose whether the after message should be displayed in the schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:92
+#: schedule/settings/class-fws-settings-messages.php:82
+msgid ""
+"Choose whether the after message should be aligned left, right, center, "
+"justified or have no alignment"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-messages.php:106
+#: schedule/settings/class-fws-settings-messages.php:96
+msgid "Enter the content to be displayed after the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:49
+msgid "Office Hours Block"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:50
+msgid "Select the '+' button to add multiple Office Hours blocks."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:58
+#: schedule/settings/class-fws-settings-officehours.php:42
+msgid ""
+"Select the minutes, hours and AM/PM start time of this Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:108
+#: schedule/settings/class-fws-settings-officehours.php:92
+msgid ""
+"Select the minutes, hours and AM/PM end time of this Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:159
+msgid "Select the start date of this Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:170
+msgid "Select the end date of this Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:181
+#: schedule/settings/class-fws-settings-officehours.php:145
+msgid "Enter the title of the block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:193
+#: schedule/settings/class-fws-settings-officehours.php:156
+msgid "Enter the campus where this Office Hours block will take place."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:206
+#: schedule/settings/class-fws-settings-officehours.php:168
+msgid "Enter the location where this Office Hours block will take place."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:212
+#: schedule/settings/class-fws-settings-officehours.php:173
+msgid "Select the background color of the Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:220
+#: schedule/settings/class-fws-settings-officehours.php:181
+msgid "Select the text color of the Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-office-hours.php:227
+msgid "Select the day of the week for this Office Hours block."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:128
+#: schedule/settings/class-fws-settings-options.php:64
+msgid "Enter the amount of padding for content in the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:151
+#: schedule/settings/class-fws-settings-options.php:87
+msgid "Enter the amount of padding for a block in the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:174
+#: schedule/settings/class-fws-settings-options.php:110
+msgid "Enter the gap amount between columns in the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:196
+#: schedule/settings/class-fws-settings-options.php:132
+msgid "Select the desired size and position to display the photograph."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:200
+#: schedule/settings/class-fws-settings-options.php:136
+msgid "Thumbnail"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:201
+#: schedule/settings/class-fws-settings-options.php:137
+msgid "Medium"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:202
+#: schedule/settings/class-fws-settings-options.php:138
+msgid "Medium Large"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:203
+#: schedule/settings/class-fws-settings-options.php:139
+msgid "Large"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:208
+#: schedule/settings/class-fws-settings-options.php:144
+msgid "Show Photograph"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:215
+#: schedule/settings/class-fws-settings-options.php:151
+msgid "Above Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:216
+#: schedule/settings/class-fws-settings-options.php:152
+msgid "Below Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:217
+#: schedule/settings/class-fws-settings-options.php:153
+msgid "Below After Message"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:225
+#: schedule/settings/class-fws-settings-options.php:160
+msgid "Title Colors"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:226
+#: schedule/settings/class-fws-settings-options.php:161
+msgid "Enter the background and text colors for the title of the schedule."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:245
+#: schedule/settings/class-fws-settings-options.php:180
+msgid "Schedule Background Colors"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:246
+#: schedule/settings/class-fws-settings-options.php:181
+msgid ""
+"Enter the background and text colors for the background of the schedule "
+"heading."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:266
+#: schedule/settings/class-fws-settings-options.php:201
+msgid ""
+"Choose whether the content of the schedule should be full width or wide "
+"width, left/center/right aligned or have no alignment"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:269
+#: schedule/settings/class-fws-settings-options.php:204
+msgid "Wide"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:270
+#: schedule/settings/class-fws-settings-options.php:205
+msgid "Full"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:281
+#: schedule/settings/class-fws-settings-options.php:216
+msgid ""
+"Enter the date and time format for the schedule start and end date and time."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:287
+#: schedule/post-type/class-fws-schedule-options-metabox.php:318
+#: schedule/settings/class-fws-settings-options.php:222
+#: schedule/settings/class-fws-settings-options.php:253
+msgid "F j, Y"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:287
+#: schedule/post-type/class-fws-schedule-options-metabox.php:288
+#: schedule/post-type/class-fws-schedule-options-metabox.php:289
+#: schedule/post-type/class-fws-schedule-options-metabox.php:290
+#: schedule/post-type/class-fws-schedule-options-metabox.php:299
+#: schedule/post-type/class-fws-schedule-options-metabox.php:300
+#: schedule/post-type/class-fws-schedule-options-metabox.php:301
+#: schedule/post-type/class-fws-schedule-options-metabox.php:318
+#: schedule/post-type/class-fws-schedule-options-metabox.php:319
+#: schedule/post-type/class-fws-schedule-options-metabox.php:320
+#: schedule/post-type/class-fws-schedule-options-metabox.php:321
+#: schedule/post-type/class-fws-schedule-options-metabox.php:330
+#: schedule/post-type/class-fws-schedule-options-metabox.php:331
+#: schedule/post-type/class-fws-schedule-options-metabox.php:332
+#: schedule/settings/class-fws-settings-options.php:222
+#: schedule/settings/class-fws-settings-options.php:223
+#: schedule/settings/class-fws-settings-options.php:224
+#: schedule/settings/class-fws-settings-options.php:225
+#: schedule/settings/class-fws-settings-options.php:234
+#: schedule/settings/class-fws-settings-options.php:235
+#: schedule/settings/class-fws-settings-options.php:236
+#: schedule/settings/class-fws-settings-options.php:253
+#: schedule/settings/class-fws-settings-options.php:254
+#: schedule/settings/class-fws-settings-options.php:255
+#: schedule/settings/class-fws-settings-options.php:256
+#: schedule/settings/class-fws-settings-options.php:265
+#: schedule/settings/class-fws-settings-options.php:266
+#: schedule/settings/class-fws-settings-options.php:267
+msgid " - e.g. "
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:288
+#: schedule/post-type/class-fws-schedule-options-metabox.php:319
+#: schedule/settings/class-fws-settings-options.php:223
+#: schedule/settings/class-fws-settings-options.php:254
+msgid "Y-m-d"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:289
+#: schedule/post-type/class-fws-schedule-options-metabox.php:320
+#: schedule/settings/class-fws-settings-options.php:224
+#: schedule/settings/class-fws-settings-options.php:255
+msgid "m/d/Y"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:290
+#: schedule/post-type/class-fws-schedule-options-metabox.php:321
+#: schedule/settings/class-fws-settings-options.php:225
+#: schedule/settings/class-fws-settings-options.php:256
+msgid "d/m/Y"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:299
+#: schedule/post-type/class-fws-schedule-options-metabox.php:330
+#: schedule/settings/class-fws-settings-options.php:234
+#: schedule/settings/class-fws-settings-options.php:265
+msgid "g:i a"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:300
+#: schedule/post-type/class-fws-schedule-options-metabox.php:331
+#: schedule/settings/class-fws-settings-options.php:235
+#: schedule/settings/class-fws-settings-options.php:266
+msgid "g:i A"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:301
+#: schedule/post-type/class-fws-schedule-options-metabox.php:332
+#: schedule/settings/class-fws-settings-options.php:236
+#: schedule/settings/class-fws-settings-options.php:267
+msgid "H:i"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule-options-metabox.php:312
+#: schedule/settings/class-fws-settings-options.php:247
+msgid ""
+"Enter the date and time format for the schedule block start and end date and "
+"time."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:382
+msgid "Content Information"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:454
+#: schedule/settings/class-fws-settings-headings.php:63
+msgid "Schedule Dates"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:505
+#: schedule/settings/class-fws-settings-headings.php:69
+msgid "Classes and Office Hours"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:640
+#: schedule/settings/class-fws-settings-headings.php:75
+msgid "Online Classes"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:739
+msgid "No Office Hours or Classes entered"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:741
+msgid "for"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:839
+#: schedule/post-type/class-fws-schedule.php:840
+msgid "Weekly Schedules"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:841
+#: schedule/post-type/class-fws-schedule.php:842
+msgid "Add new Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:843
+msgid "Edit Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:844
+msgid "New Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:845
+msgid "View Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:846
+msgid "View Schedules"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:847
+msgid "Search Schedules"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:848
+msgid "No Schedules found"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:849
+msgid "No Schedules found in trash"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:850
+#: schedule/post-type/class-fws-schedule.php:868
+msgid "Parent Schedule:"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:851
+msgid "Schedule Photograph"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:852
+msgid "Set Schedule Photograph"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:853
+msgid "Remove Schedule Photograph"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:854
+msgid "Use Schedule Photograph"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:855
+msgid "Schedule Directory"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:856
+msgid "Insert into Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:857
+msgid "Upload to this Schedule"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:858
+msgid "Filter Schedules list"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:859
+msgid "Schedules list navigation"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:860
+msgid "Schedules list"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:861
+msgid "Schedules attributes"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:863
+msgid "Schedule published"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:864
+msgid "Schedule published privately."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:865
+msgid "Schedule reverted to draft."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:866
+msgid "Schedule scheduled"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:867
+msgid "Schedule updated."
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:900
+msgid "Change Default Schedule Settings"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:914
+msgid "See Faculty Weekly Schedule Help"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:945
+msgid "Schedule Title"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:950
+#: schedule/settings/class-fws-settings.php:60
+#: schedule/settings/class-fws-settings.php:92
+msgid "Office Hours"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:951
+#: schedule/settings/class-fws-settings.php:64
+#: schedule/settings/class-fws-settings.php:96
+msgid "Classes"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:1126
+msgid "Copy Shortcode to Clipboard"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:1126
+msgid "See Shortcode Help"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:1200
+msgid "Debug Information"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:1201
+msgid "Saved Meta Field Values of the Post"
+msgstr ""
+
+#: schedule/post-type/class-fws-schedule.php:1203
+msgid "Saved Setting Options of The Loader Plugin"
+msgstr ""
+
+#: schedule/post-type/schedule-shortcodes.php:63
+msgid "No schedule shortcode attributes supplied. Either"
+msgstr ""
+
+#: schedule/post-type/schedule-shortcodes.php:63
+msgid "or"
+msgstr ""
+
+#: schedule/post-type/schedule-shortcodes.php:63
+msgid "or both must be entered to indicate which schedule to display."
+msgstr ""
+
+#: schedule/post-type/schedule-shortcodes.php:72
+msgid "attribute provided when"
+msgstr ""
+
+#: schedule/post-type/schedule-shortcodes.php:72
+msgid "attribute is equal to"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-classes.php:187
+msgid "Classes Default Options"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-faculty.php:193
+msgid "Faculty Default Options"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-headings.php:167
+msgid "Schedule Headings Defaults"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-messages.php:107
+msgid "Schedule Messages Defaults"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-officehours.php:192
+msgid "Office Hours Default Options"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-options.php:282
+msgid "Schedule Options Defaults"
+msgstr ""
+
+#: schedule/settings/class-fws-settings-sidepage.php:66
+msgid "Saved Options"
+msgstr ""
+
+#. translators: %1$s is replaced with the function the text is in
+#: schedule/settings/class-fws-settings-sidepage.php:83
+#, php-format
+msgid "This text is inserted with the <code>%1$s</code> method."
+msgstr ""
+
+#: schedule/settings/class-fws-settings.php:56
+#: schedule/settings/class-fws-settings.php:88
+msgid "Faculty"
+msgstr ""
+
+#: schedule/settings/class-fws-settings.php:68
+#: schedule/settings/class-fws-settings.php:100
+msgid "Options"
+msgstr ""
+
+#: schedule/settings/class-fws-settings.php:72
+#: schedule/settings/class-fws-settings.php:104
+msgid "Headings"
+msgstr ""
+
+#: schedule/settings/class-fws-settings.php:76
+#: schedule/settings/class-fws-settings.php:108
+msgid "Messages"
+msgstr ""
+
+#: schedule/settings/class-fws-settings.php:80
+msgid "Developer"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Faculty Weekly Schedule"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/FWS-WP/faculty-weekly-schedule/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Define and display the weekly schedule of a faculty member."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "George Cooke"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://sites.broward.edu/gcooke/"
+msgstr ""
