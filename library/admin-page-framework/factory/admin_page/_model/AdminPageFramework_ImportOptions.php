@@ -22,7 +22,7 @@ class FacultyWeeklySchedule_AdminPageFramework_ImportOptions extends FacultyWeek
     }
     public function getImportData() {
         $sFilePath = $this->getElementInFilesArray($this->aFilesImport, $this->sInputID, 'tmp_name');
-        $vData = file_exists($sFilePath) ? file_get_contents($sFilePath, true) : false;
+        $vData = file_exists($sFilePath) ? WP_Filesystem_Direct::get_contents($sFilePath, true) : false;
         return $vData;
     }
     public function formatImportData(&$vData, $sFormatType = null) {

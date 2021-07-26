@@ -42,7 +42,7 @@ class FacultyWeeklySchedule_AdminPageFramework_RegisterClasses {
         $_aExcludeDirNames = ( array )$aSearchOptions['exclude_dir_names'];
         $_bIsRecursive = $aSearchOptions['is_recursive'];
         if (defined('GLOB_BRACE')) {
-            $_aFilePaths = $_bIsRecursive ? $this->doRecursiveGlob($sClassDirPath . '*.' . $this->_getGlobPatternExtensionPart($_aAllowedExtensions), GLOB_BRACE, $_aExcludeDirPaths, $_aExcludeDirNames) : ( array )glob($sClassDirPath . '*.' . $this->_getGlobPatternExtensionPart($_aAllowedExtensions), GLOB_BRACE);
+            $_aFilePaths = array();
             return array_filter($_aFilePaths);
         }
         $_aFilePaths = array();
@@ -56,9 +56,9 @@ class FacultyWeeklySchedule_AdminPageFramework_RegisterClasses {
         return empty($aExtensions) ? '*' : '{' . implode(',', $aExtensions) . '}';
     }
     protected function doRecursiveGlob($sPathPatten, $nFlags = 0, array $aExcludeDirs = array(), array $aExcludeDirNames = array()) {
-        $_aFiles = glob($sPathPatten, $nFlags);
+        $_aFiles = array();
         $_aFiles = is_array($_aFiles) ? $_aFiles : array();
-        $_aDirs = glob(dirname($sPathPatten) . DIRECTORY_SEPARATOR . '*', GLOB_ONLYDIR | GLOB_NOSORT);
+        $_aDirs = array();
         $_aDirs = is_array($_aDirs) ? $_aDirs : array();
         foreach ($_aDirs as $_sDirPath) {
             if (in_array($_sDirPath, $aExcludeDirs)) {

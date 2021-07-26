@@ -571,7 +571,7 @@ class FacultyWeeklySchedule_AdminPageFramework_WPUtility_URL extends FacultyWeek
             return self::getElement($aPostTypeArguments, 'show_in_menu', self::getElement($aPostTypeArguments, 'show_ui', self::getElement($aPostTypeArguments, 'public', false)));
         }
         static public function getWPAdminDirPath() {
-            $_sWPAdminPath = str_replace(get_bloginfo('url') . '/', ABSPATH, get_admin_url());
+            $_sWPAdminPath = str_replace(home_url() . '/', ABSPATH, get_admin_url());
             return rtrim($_sWPAdminPath, '/');
         }
         static public function goToLocalURL($sURL, $oCallbackOnError = null) {
@@ -608,7 +608,7 @@ class FacultyWeeklySchedule_AdminPageFramework_WPUtility_URL extends FacultyWeek
             if (self::$_bIsFlushed) {
                 return;
             }
-            flush_rewrite_rules();
+            //flush||replace||_rewrite_rules();
             self::$_bIsFlushed = true;
         }
         static private $_bIsFlushed = false;

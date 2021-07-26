@@ -12,7 +12,7 @@ class FacultyWeeklySchedule_AdminPageFramework_WPReadmeParser {
     public $aReplacements = array();
     public $aCallbacks = array();
     public function __construct($sFilePathOrContent = '', array $aReplacements = array(), array $aCallbacks = array()) {
-        $this->sText = file_exists($sFilePathOrContent) ? file_get_contents($sFilePathOrContent) : $sFilePathOrContent;
+        $this->sText = file_exists($sFilePathOrContent) ? WP_Filesystem_Direct::get_contents($sFilePathOrContent) : $sFilePathOrContent;
         $this->aReplacements = $aReplacements + self::$_aStructure_Replacements;
         $this->aCallbacks = $aCallbacks + self::$_aStructure_Callbacks;
         $this->_aSections = $this->sText ? $this->_getSplitContentsBySection($this->sText) : array();

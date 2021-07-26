@@ -60,7 +60,7 @@ $_aAllowedExtensions = isset( $_aPost[ 'fileExtensions' ] )
 
 if( file_exists($postDir) ) {
 
-	$files		= scandir($postDir);
+	$files		= array(); // scan__replace__dir($postDir);
 	$returnDir	= substr($postDir, strlen($root));
 
 	natcasesort($files);

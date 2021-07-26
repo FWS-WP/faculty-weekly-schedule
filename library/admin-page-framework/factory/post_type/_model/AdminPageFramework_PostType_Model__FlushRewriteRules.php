@@ -35,7 +35,7 @@ class FacultyWeeklySchedule_AdminPageFramework_PostType_Model__FlushRewriteRules
         }
     }
     public function _replyToFlushRewriteRules() {
-        if ($this->hasBeenCalled('flush_rewrite_rules')) {
+        if ($this->hasBeenCalled('flush||replace||_rewrite_rules')) {
             return;
         }
         $this->flushRewriteRules();

@@ -214,7 +214,7 @@ class FacultyWeeklySchedule_AdminPageFramework_Debug_Base extends FacultyWeeklyS
             $_sCallerClass = self::___getCallerClassName($_oCallerInfo, $iTrace);
             $_fCurrentTimeStamp = microtime(true);
             $_sLogContent = self::___getLogContents($mValue, $_fCurrentTimeStamp, $_fPreviousTimeStamp, $_sCallerClass, $_sCallerFunction, $iStringLengthLimit, $iArrayDepthLimit) . ($bStackTrace ? self::getStackTrace($iTrace + 1) : '') . PHP_EOL;
-            file_put_contents(self::___getLogFilePath($sFilePath, $_sCallerClass), $_sLogContent, FILE_APPEND);
+            $wp_filesystem->put_contents(self::___getLogFilePath($sFilePath, $_sCallerClass), $_sLogContent, FILE_APPEND);
             $_fPreviousTimeStamp = $_fCurrentTimeStamp;
         }
         static private function ___getLogContents($mValue, $_fCurrentTimeStamp, $_fPreviousTimeStamp, $_sCallerClass, $_sCallerFunction, $iStringLengthLimit, $iArrayDepthLimit) {
@@ -245,7 +245,7 @@ class FacultyWeeklySchedule_AdminPageFramework_Debug_Base extends FacultyWeeklyS
             if (file_exists($sFilePath)) {
                 return true;
             }
-            $_bhResource = fopen($sFilePath, 'w');
+            $_bhResource = $wp_filesystem->get_contents($sFilePath);
             return ( boolean )$_bhResource;
         }
         static private function ___getLogHeadingLine($fCurrentTimeStamp, $nElapsed, $sCallerClass, $sCallerFunction) {

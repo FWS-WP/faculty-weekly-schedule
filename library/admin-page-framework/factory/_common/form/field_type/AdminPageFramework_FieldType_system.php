@@ -103,7 +103,7 @@ class FacultyWeeklySchedule_AdminPageFramework_FieldType_system extends FacultyW
     }
     private function ___getActiveThemeName() {
         if (version_compare($GLOBALS['wp_version'], '3.4', '<')) {
-            $_aThemeData = get_theme_data(get_stylesheet_directory() . '/style.css');
+            $_aThemeData = wp_get_theme(get_stylesheet_directory() . '/style.css');
             return $_aThemeData['Name'] . ' ' . $_aThemeData['Version'];
         }
         $_oThemeData = wp_get_theme();

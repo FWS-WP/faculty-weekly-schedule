@@ -3,8 +3,8 @@ Contributors: profgeorgecooke
 Donate link: https://giving.broward.edu/donate
 Tags: faculty, weekly, schedule, office, hours, class, classes
 Requires at least: 5.0
-Tested up to: 5.7.2
-Stable tag: 1.0.0
+Tested up to: 5.8
+Stable tag: 1.1.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -134,10 +134,18 @@ Yes. All schedule settings and all schedules added will be deleted. On a multisi
 
 == Changelog ==
 
+= 1.1.0 (26 July 2021) =
+* Updated for CampusPress programming requirements.
+* Tested on WordPress version 5.8
+
 = 1.0.0 (26 May 2021) =
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Updated for CampusPress programming requirements.
+Tested on WordPress version 5.8
 
 = 1.0.0 =
 Initial Release.

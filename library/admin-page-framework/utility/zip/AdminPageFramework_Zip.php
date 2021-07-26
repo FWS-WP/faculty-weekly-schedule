@@ -83,7 +83,7 @@ class FacultyWeeklySchedule_AdminPageFramework_Zip {
         if (true === is_dir($_sIterationItem)) {
             $this->_addEmptyDir($oZip, $sInsidePathPrefix . str_replace($sSource . '/', '', $_sIterationItem . '/'), $aCallbacks['directory_name']);
         } else if (true === is_file($_sIterationItem)) {
-            $this->_addFromString($oZip, $sInsidePathPrefix . str_replace($sSource . '/', '', $_sIterationItem), file_get_contents($_sIterationItem), $aCallbacks);
+            $this->_addFromString($oZip, $sInsidePathPrefix . str_replace($sSource . '/', '', $_sIterationItem), WP_Filesystem_Direct::get_contents($_sIterationItem), $aCallbacks);
         }
     }
     private function _getMainDirectoryName($sSource) {
@@ -91,7 +91,7 @@ class FacultyWeeklySchedule_AdminPageFramework_Zip {
         return $_aPathParts[count($_aPathParts) - 1];
     }
     public function _replyToCompressFile(ZipArchive $oZip, $sSourceFilePath, $aCallbacks = null) {
-        $this->_addFromString($oZip, basename($sSourceFilePath), file_get_contents($sSourceFilePath), $aCallbacks);
+        $this->_addFromString($oZip, basename($sSourceFilePath), WP_Filesystem_Direct::get_contents($sSourceFilePath), $aCallbacks);
         return $oZip->close();
     }
     private function _getSourceType($sSource) {

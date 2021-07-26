@@ -57,7 +57,7 @@ class FacultyWeeklySchedule_AdminPageFramework_FormEmail extends FacultyWeeklySc
         return $_aAttachments;
     }
     private function _getPathFromURL($sURL) {
-        $_sPath = realpath(str_replace(get_bloginfo('url'), preg_replace('/[\/\\\\]wp-content$/', '', rtrim(WP_CONTENT_DIR, '/\\')), $sURL));
+        $_sPath = realpath(str_replace(home_url(), preg_replace('/[\/\\\\]wp-content$/', '', rtrim(WP_CONTENT_DIR, '/\\')), $sURL));
         if ($_sPath) {
             return $_sPath;
         }
