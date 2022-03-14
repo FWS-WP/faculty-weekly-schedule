@@ -3,9 +3,9 @@
  * Plugin Name: Faculty Weekly Schedule
  * Plugin URI: https://github.com/FWS-WP/faculty-weekly-schedule/
  * Description: Define and display the weekly schedule of a faculty member.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires at least: 5.0
- * Tested up to: 5.8
+ * Tested up to: 5.9.2
  * Requires PHP: 7.3
  * PHP Version: 7.3
  * Author: George Cooke
@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Define plugins constants.
-define( 'FWS_VERSION', '1.0.0' );
+define( 'FWS_VERSION', '1.2.0' );
 define( 'FWS_DOMAIN', 'faculty-weekly-schedule' );
 define( 'FWS_PATH', plugin_dir_path( __FILE__ ) );
 

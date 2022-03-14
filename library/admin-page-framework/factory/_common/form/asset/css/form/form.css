@@ -1,0 +1,1458 @@
+@charset "UTF-8";
+/*! Admin Page Framework Form Style 1.0.12 */
+.faculty-weekly-schedule-form-warning {
+  font-size: 1em;
+}
+
+/* Form Elements */
+/* TD paddings when the field title is disabled */
+td.faculty-weekly-schedule-field-td-no-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Fields Container */
+.faculty-weekly-schedule-fields {
+  display: table;
+  /* the block property does not give the element the solid height */
+  width: 100%;
+  table-layout: fixed;
+  /* in Firefox, fix the issue that preview images cause the container element to expand */
+}
+
+/* Number Input */
+.faculty-weekly-schedule-field input[type=number] {
+  text-align: right;
+}
+
+/* Disabled */
+.faculty-weekly-schedule-fields .disabled,
+.faculty-weekly-schedule-fields .disabled input,
+.faculty-weekly-schedule-fields .disabled textarea,
+.faculty-weekly-schedule-fields .disabled select,
+.faculty-weekly-schedule-fields .disabled option {
+  color: #BBB;
+}
+
+/* HR */
+.faculty-weekly-schedule-fields hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #dfdfdf;
+}
+
+/* Delimiter */
+.faculty-weekly-schedule-fields .delimiter {
+  display: inline;
+}
+
+/* Description */
+.faculty-weekly-schedule-fields-description {
+  margin-bottom: 0;
+}
+
+/* Field Container */
+.faculty-weekly-schedule-field {
+  float: left;
+  clear: both;
+  display: inline-block;
+  margin: 1px 0;
+}
+
+.faculty-weekly-schedule-field label {
+  display: inline-block;
+  /* for WordPress v3.7.x or below */
+  width: 100%;
+}
+
+/* Field Title */
+@media screen and (max-width: 782px) {
+  .form-table fieldset > label {
+    display: inline-block;
+  }
+}
+.faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-container {
+  margin-bottom: 0.25em;
+}
+
+@media only screen and (max-width: 780px) {
+  /* For WordPress v3.8 or greater */
+  .faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-container {
+    margin-top: 0.5em;
+    /* 3.8.13+ for fields in the collapsible section title area. */
+    margin-bottom: 0.5em;
+  }
+}
+.faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-string {
+  padding-right: 1em;
+  /* for checkbox label strings, a right padding is needed */
+  vertical-align: middle;
+  display: inline-block;
+  /* each (sub)field label can have a fix min-width */
+}
+
+.faculty-weekly-schedule-field .faculty-weekly-schedule-input-button-container {
+  padding-right: 1em;
+}
+
+.faculty-weekly-schedule-field .faculty-weekly-schedule-input-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-image .faculty-weekly-schedule-input-label-container {
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Repeatable Fields */
+.repeatable .faculty-weekly-schedule-field {
+  clear: both;
+  display: block;
+}
+
+.faculty-weekly-schedule-repeatable-field-buttons {
+  float: right;
+  margin: 0.1em 0 0.5em 0.3em;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-repeatable-field-buttons .repeatable-field-button {
+  margin: 0 0.1em;
+  font-weight: normal;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .faculty-weekly-schedule-repeatable-field-buttons {
+    margin-top: 0;
+  }
+}
+/* Sortable Section and Fields */
+.faculty-weekly-schedule-sections.sortable-section > .faculty-weekly-schedule-section,
+.sortable > .faculty-weekly-schedule-field {
+  clear: both;
+  float: left;
+  display: inline-block;
+  /* padding: 1em 1.2em 0.78em; @deprecated 3.7.1 */
+  padding: 1em 1.32em 1em;
+  margin: 1px 0 0 0;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  text-shadow: #fff 0 1px 0;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 #fff;
+  -webkit-box-shadow: inset 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 #fff;
+  border-radius: 3px;
+  background: #f1f1f1;
+  background-image: -o-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(#f9f9f9));
+  background-image: linear-gradient(to top, #ececec, #f9f9f9);
+  border: 1px solid #CCC;
+  background: #F6F6F6;
+}
+
+.faculty-weekly-schedule-fields.sortable {
+  margin-bottom: 1.2em;
+  /* each sortable field does not have a margin bottom so this rule gives a margin between the fields and the description */
+}
+
+/* Media Upload Buttons */
+.faculty-weekly-schedule-field .button.button-small {
+  width: auto;
+}
+
+/* Fonts */
+.font-lighter {
+  font-weight: lighter;
+}
+
+/* Dashicons */
+.faculty-weekly-schedule-field .button.button-small.dashicons {
+  font-size: 1.2em;
+  padding-left: 0.2em;
+  padding-right: 0.22em;
+  min-width: 1em;
+  /* 3.8.13+ prevent the icon width from getting to narrow */
+}
+
+@media screen and (max-width: 782px) {
+  .faculty-weekly-schedule-field .button.button-small.dashicons {
+    min-width: 1.8em;
+    /* 3.8.13+ prevent the icon width from getting to narrow */
+  }
+}
+/* Image icons vertical alignments 3.8.13+ */
+.faculty-weekly-schedule-field .button.button-small.dashicons:before {
+  position: relative;
+  top: 7.2%;
+}
+
+@media screen and (max-width: 782px) {
+  .faculty-weekly-schedule-field .button.button-small.dashicons:before {
+    top: 8.2%;
+  }
+}
+/* Field Title 3.8.0+ */
+.faculty-weekly-schedule-field-title {
+  font-weight: 600;
+  min-width: 80px;
+  margin-right: 1em;
+}
+
+/* Font-weight 3.8.0+ */
+.faculty-weekly-schedule-fieldset {
+  /* This needs to be explicitly defined for the fields placed in the field title area. */
+  font-weight: normal;
+}
+
+/* Input container label 3.8.0+ */
+.faculty-weekly-schedule-input-label-container,
+.faculty-weekly-schedule-input-label-string {
+  min-width: 140px;
+}
+
+.field-error,
+.section-error {
+  color: #d63638;
+  float: left;
+  clear: both;
+  margin-bottom: 0.5em;
+}
+
+.repeatable-section-error,
+.repeatable-field-error {
+  float: right;
+  clear: both;
+  color: #d63638;
+  margin-left: 1em;
+}
+
+/* Section Table */
+.faculty-weekly-schedule-section .form-table {
+  margin-top: 0;
+}
+
+.faculty-weekly-schedule-section .form-table td label {
+  display: inline;
+  /* adjusts the horizontal alignment with the th element */
+}
+
+/* Section Tabs */
+.faculty-weekly-schedule-section-tabs-contents {
+  margin-top: 1em;
+}
+
+.faculty-weekly-schedule-section-tabs {
+  /* The section tabs' container */
+  margin: 0;
+}
+
+.faculty-weekly-schedule-tab-content {
+  /* each section including sub-sections of repeatable fields */
+  padding: 0.5em 2em 1.5em 2em;
+  margin: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dfdfdf;
+  background-color: #fdfdfd;
+}
+
+.faculty-weekly-schedule-section-tab {
+  background-color: transparent;
+  vertical-align: bottom;
+  /* for Firefox */
+  margin-bottom: -2px;
+  /* For WP 3.4.4+, 3.8.13 Changed it from -1px for WP 4.7. */
+  margin-left: 0px;
+  margin-right: 0.5em;
+  background-color: #F1F1F1;
+  font-weight: normal;
+}
+
+.faculty-weekly-schedule-section-tab:hover {
+  background-color: #F8F8F8;
+}
+
+.faculty-weekly-schedule-section-tab.active {
+  background-color: #fdfdfd;
+}
+
+/* Tab title */
+.faculty-weekly-schedule-section-tab h4 {
+  margin: 0;
+  /* padding: 8px 14px 10px; */
+  padding: 0.4em 0.8em;
+  font-size: 1.12em;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.faculty-weekly-schedule-section-tab.nav-tab {
+  /* padding: 0; */
+  padding: 0.2em 0.4em;
+}
+
+.faculty-weekly-schedule-section-tab.nav-tab a {
+  text-decoration: none;
+  color: #464646;
+  vertical-align: inherit;
+  /* for Firefox - without this tiny dots appear */
+  outline: 0;
+  /* for FireFox - remove dotted outline */
+}
+
+.faculty-weekly-schedule-section-tab.nav-tab a:focus {
+  /* For FireFox - remove dotted outline when a switchable tab is activated */
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faculty-weekly-schedule-section-tab.nav-tab.active a {
+  color: #000;
+}
+
+.faculty-weekly-schedule-content ul.faculty-weekly-schedule-section-tabs > li.faculty-weekly-schedule-section-tab {
+  /* Do not show bullets in section tabs */
+  list-style-type: none;
+  /* For WordPress 4.4, make sure to attach the tab to the container */
+  margin: -4px 4px -1px 0;
+}
+
+/* Repeatable Sections */
+.faculty-weekly-schedule-repeatable-section-buttons {
+  float: right;
+  clear: right;
+  margin-top: 1em;
+}
+
+.faculty-weekly-schedule-repeatable-section-buttons.disabled > .repeatable-section-button {
+  color: #edd;
+  border-color: #edd;
+}
+
+/* Section Caption */
+.faculty-weekly-schedule-section-caption {
+  text-align: left;
+  margin: 0;
+}
+
+/* Section Title */
+.faculty-weekly-schedule-section .faculty-weekly-schedule-section-title {
+  /* background: none; */
+  /* @todo examine what this is for. @deprecated 3.4.0 for repeatable collapsible section titles */
+  /* -webkit-box-shadow: none; */
+  /* @todo examine what this is for. @deprecated 3.4.0 for repeatable collapsible section titles */
+  /* _box-shadow: none; */
+  /* @todo examine what this is for. @deprecated 3.4.0 for repeatable collapsible section titles */
+}
+
+/* Sortable Sections */
+.faculty-weekly-schedule-sections.sortable-section > .faculty-weekly-schedule-section {
+  /* padding: 1em 2.5em 1.5em 2.5em; */
+  padding: 1em 1.8em 1em 2.6em;
+}
+
+/* Sortable Collapsible Sections */
+.faculty-weekly-schedule-sections.sortable-section > .faculty-weekly-schedule-section.is_subsection_collapsible {
+  display: block;
+  float: none;
+  border: 0px;
+  padding: 0;
+  background: transparent;
+}
+
+/* Sortable Tabbed Sections */
+.faculty-weekly-schedule-sections.sortable-section > .faculty-weekly-schedule-tab-content {
+  display: block;
+  float: none;
+  border: 0px;
+  padding: 0.5em 2em 1.5em 2em;
+  margin: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dfdfdf;
+  background-color: #fdfdfd;
+}
+
+.faculty-weekly-schedule-sections.sortable-section > .faculty-weekly-schedule-section {
+  margin-bottom: 1em;
+}
+
+.faculty-weekly-schedule-section {
+  /* gives a bottom margin between sections. This helps for the debug info in each sectionset and collapsible sections. */
+  margin-bottom: 1em;
+}
+
+.faculty-weekly-schedule-sectionset {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Nested sections */
+.faculty-weekly-schedule-section > .faculty-weekly-schedule-sectionset {
+  margin-left: 2em;
+}
+
+/* Collapsible Sections Title Block */
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box {
+  font-size: 13px;
+  background-color: #fff;
+  padding: 1em 3.6em 1em 1.6em;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  /* 3.9.0 */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box.collapsed,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.collapsed {
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 1em;
+  /* gives a margin for the debug info at the bottom of the meta box */
+}
+
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box {
+  margin-top: 0;
+}
+
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.collapsed {
+  margin-bottom: 0;
+}
+
+/* Collapsible Sections Title Block  */
+#poststuff .faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box.faculty-weekly-schedule-section-title > .section-title-outer-container > .section-title-container > .section-title,
+#poststuff .faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.faculty-weekly-schedule-section-title > .section-title-outer-container > .section-title-container > .section-title {
+  font-size: 1em;
+  margin: 0 1em 0 0;
+  /* 3.8.13+ The margin-right is required for fields in the section title area. */
+}
+
+#poststuff .faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.faculty-weekly-schedule-section-title > .section-title-outer-container > .section-title-container > fieldset {
+  line-height: 0;
+  /* 3.8.13 to vertically align in the center */
+}
+
+#poststuff .faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.faculty-weekly-schedule-section-title > .section-title-outer-container > .section-title-container > fieldset .faculty-weekly-schedule-field {
+  margin: 0;
+  padding: 0;
+}
+
+/* Collapsible Sections Title Dash-icon */
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title:after,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title:after {
+  top: 0.88em;
+  /* about half of 2em which is the element height, and slightly higher. */
+  top: 34%;
+  /* about half of 2em which is the element height, and slightly higher. */
+  right: 15px;
+}
+
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title:after,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title:after {
+  content: "";
+}
+
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title.collapsed:after,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box.accordion-section-title.collapsed:after {
+  content: "";
+}
+
+/**
+ * Collapsible Sections Content Block
+ * @todo ...-content-type-box may have been deprecated. So investigate whether it is not used anywhere and remove it in that case.
+ **/
+.faculty-weekly-schedule-collapsible-sections-content.faculty-weekly-schedule-collapsible-content.accordion-section-content,
+.faculty-weekly-schedule-collapsible-section-content.faculty-weekly-schedule-collapsible-content.accordion-section-content,
+.faculty-weekly-schedule-collapsible-sections-content.faculty-weekly-schedule-collapsible-content-type-box,
+.faculty-weekly-schedule-collapsible-section-content.faculty-weekly-schedule-collapsible-content-type-box {
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+  background-color: #fff;
+  /* margin-bottom: 1em; */
+  /* gives a margin for the debug info at the bottom of the meta box */
+}
+
+tbody.faculty-weekly-schedule-collapsible-content {
+  display: table-caption;
+  /* 'block' will be assigned in JavaScript if the browser is not Chrome */
+  padding: 10px 20px 15px 20px;
+}
+
+/* Collapsible section containers get this class selector in Google Chrome */
+tbody.faculty-weekly-schedule-collapsible-content.table-caption {
+  display: table-caption;
+  /* For some reasons, this display mode gives smooth animation in Google Chrome */
+}
+
+/* The Toggle All button */
+.faculty-weekly-schedule-collapsible-toggle-all-button-container {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  display: table;
+  /* if block, it gets hidden inside the section toggle bar */
+}
+
+.faculty-weekly-schedule-collapsible-toggle-all-button.button {
+  height: 36px;
+  line-height: 34px;
+  padding: 0 16px 6px;
+  font-size: 20px;
+  /* Determines the dashicon size  */
+  width: auto;
+}
+
+/* Vertically flip the toggle button */
+.flipped > .faculty-weekly-schedule-collapsible-toggle-all-button.button.dashicons {
+  -webkit-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+      transform: scaleY(-1);
+  -webkit-filter: flipv;
+          filter: flipv;
+  /*IE*/
+}
+
+/* Repeatable Section buttons inside the collapsible section title block */
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .faculty-weekly-schedule-repeatable-section-buttons {
+  /* Collapsible section bar has an icon at the right end so the repeatable button needs to be placed before it */
+  margin: 0;
+  /*margin-right: 1em;*/
+  /* 3.9.0 the repeatable buttons and the collapsible bottom arrow are too close. */
+  /* @deprecated This can be solved by displaying as flex */
+  /* margin-right: 2em; @deprecated 3.8.13+ The section repeatable buttons are no longer float but positioned with the `position` property. */
+  /* margin-top: -0.32em; @deprecated 3.8.7+ It is placed somewhat high in WP 4.6.1. */
+  float: none;
+  /* 3.9.0 now the collapsible bar is displayed as flex so no need to float */
+  margin-left: auto;
+  /* 3.9.0 This aligns the button container to right */
+}
+
+/* When a `section_title` field is in the caption tag, do not set the margin-top to align vertically */
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .faculty-weekly-schedule-repeatable-section-buttons.section_title_field_sibling {
+  margin-top: 0;
+}
+
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .repeatable-section-button {
+  background: none;
+  /* for Wordpress v3.7.x or below, the background image need to be removed as well */
+  /* 3.8.13+ Give a fixed button size */
+  line-height: 1.8em;
+  margin: 0;
+  padding: 0;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+
+/* 3.8.13+ Treat the section title area and the repeatable buttons as columns. */
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box .section-title-height-fixer,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .section-title-height-fixer {
+  /* This height fixer element gives vertical alignment to the other column elements in the row. The other columns must not set height. */
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box .section-title-outer-container,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .section-title-outer-container {
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box .faculty-weekly-schedule-repeatable-section-buttons-outer-container,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .faculty-weekly-schedule-repeatable-section-buttons-outer-container {
+  width: 10.88%;
+  min-width: 60px;
+  /* for the browser width gets lets than 600px */
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 782px) {
+  .faculty-weekly-schedule-collapsible-sections-title.faculty-weekly-schedule-collapsible-type-box .section-title-outer-container,
+.faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .section-title-outer-container {
+    width: 87.8%;
+  }
+
+  .faculty-weekly-schedule-collapsible-section-title.faculty-weekly-schedule-collapsible-type-box .repeatable-section-button {
+    min-height: unset;
+    height: 40px;
+    width: 40px;
+  }
+}
+/* 3.7.0+ For the button type collapsible sections, do not set a white color in the background */
+.accordion-section-content.faculty-weekly-schedule-collapsible-content-type-button {
+  background-color: transparent;
+}
+
+/* @todo When fields support a collapsible option, move this rule to a common CSS class as this class is for sections. */
+.faculty-weekly-schedule-collapsible-button {
+  color: #888;
+  margin-right: 0.4em;
+  font-size: 0.8em;
+}
+
+/* Toggle the visibility of the buttons */
+.faculty-weekly-schedule-collapsible-button-collapse {
+  display: inline;
+}
+
+.collapsed .faculty-weekly-schedule-collapsible-button-collapse {
+  display: none;
+}
+
+.faculty-weekly-schedule-collapsible-button-expand {
+  display: none;
+}
+
+.collapsed .faculty-weekly-schedule-collapsible-button-expand {
+  display: inline;
+}
+
+/* 3.8.0+ In the collapsible section title, the space is too limited so the fields be displayed inline. */
+.faculty-weekly-schedule-collapsible-section-title .faculty-weekly-schedule-fields {
+  display: inline;
+  vertical-align: middle;
+  /* 3.8.13+ aligning fields in vertically center especially for the collapsible section title era. */
+  line-height: 1em;
+  /* 3.8.13+ this helps aligning fields in vertically center. */
+}
+
+.faculty-weekly-schedule-collapsible-section-title .faculty-weekly-schedule-field {
+  float: none;
+}
+
+.faculty-weekly-schedule-collapsible-section-title .faculty-weekly-schedule-fieldset {
+  display: inline;
+  margin-right: 1em;
+  vertical-align: middle;
+  /* to have consistent vertical alignment with section title and fields. */
+}
+
+/* 3.8.7+ Collapsible section titles. To live with the `placement` argument enabled fields, the section title must be vertically centered. */
+#poststuff .faculty-weekly-schedule-collapsible-title.faculty-weekly-schedule-collapsible-section-title .section-title-container.has-fields .section-title {
+  width: auto;
+  display: inline-block;
+  margin: 0 1em 0 0.4em;
+  vertical-align: middle;
+}
+
+/* 3.9.0+ JavaScript based Tooltip */
+.faculty-weekly-schedule-form-tooltip-balloon .wp-pointer-content {
+  padding: 12px;
+}
+
+.faculty-weekly-schedule-form-tooltip-balloon.wp-pointer-top .wp-pointer-arrow,
+.faculty-weekly-schedule-form-tooltip-balloon.wp-pointer-undefined .wp-pointer-arrow {
+  border-bottom-color: #c3c4c7;
+}
+
+.faculty-weekly-schedule-form-tooltip-balloon.wp-pointer-top .wp-pointer-arrow-inner,
+.faculty-weekly-schedule-form-tooltip-balloon.wp-pointer-undefined .wp-pointer-arrow-inner {
+  border-bottom-color: #fff;
+}
+
+.faculty-weekly-schedule-form-tooltip-balloon.offscreen.wp-pointer-bottom .wp-pointer-arrow,
+.faculty-weekly-schedule-form-tooltip-balloon.offscreen.wp-pointer-top .wp-pointer-arrow,
+.faculty-weekly-schedule-form-tooltip-balloon.offscreen.wp-pointer-undefined .wp-pointer-arrow {
+  /* Override the default arrow position when the tooltip is initially off screen and automatically adjusted its position */
+  left: unset;
+  right: 50px;
+}
+
+.faculty-weekly-schedule-form-tooltip-balloon.no-arrow .wp-pointer-arrow {
+  display: none;
+}
+
+.faculty-weekly-schedule-form-tooltip-balloon .dashicons {
+  margin-right: 0.2em;
+}
+
+/* Inside Field Title */
+th > label > span > .faculty-weekly-schedule-form-tooltip {
+  margin-top: 1px;
+  margin-left: 1em;
+}
+
+/* For admin page fields, put the ? icon to the right hand side */
+.faculty-weekly-schedule-content th > .faculty-weekly-schedule-form-tooltip {
+  float: right;
+}
+
+.postbox-container th > .faculty-weekly-schedule-form-tooltip {
+  float: none;
+  vertical-align: middle;
+}
+
+/* Regular section titles have the `+` button and collapsible title bar has a triangle icon so give a left margin */
+.faculty-weekly-schedule-section-title .faculty-weekly-schedule-form-tooltip,
+.faculty-weekly-schedule-collapsible-title .faculty-weekly-schedule-form-tooltip {
+  margin-left: 0.2em;
+  vertical-align: text-top;
+  /* 3.8.13+ Fixes vertical alignment, especially in the collapsible section title area. */
+}
+
+.faculty-weekly-schedule-section-tab .faculty-weekly-schedule-form-tooltip {
+  margin-left: 0.48em;
+  vertical-align: middle;
+}
+
+/* Question Mark (?) - we want it to be a little bit smaller than the title */
+.faculty-weekly-schedule-section-title .faculty-weekly-schedule-form-tooltip > span,
+.faculty-weekly-schedule-collapsible-title .faculty-weekly-schedule-form-tooltip > span {
+  font-size: inherit;
+}
+
+.faculty-weekly-schedule-form-tooltip > span {
+  font-size: 1.2em;
+  padding-top: 2px;
+  vertical-align: middle;
+  /* Dashicon vertical alignment */
+  display: inline;
+  /* for vertical-align to take effect */
+}
+
+/* Tip Contents - When it is placed inside h2, h3, h4, the tooltip text becomes large so avoid that */
+.faculty-weekly-schedule-form-tooltip .faculty-weekly-schedule-form-tooltip-content {
+  /* Prevent the window width gets affected by this element */
+  display: none;
+}
+
+.faculty-weekly-schedule-form-tooltip {
+  outline: none;
+  text-decoration: none;
+  cursor: default;
+  color: #999;
+  margin: 0 0.2em;
+}
+
+.faculty-weekly-schedule-form-tooltip > .faculty-weekly-schedule-form-tooltip-content > .faculty-weekly-schedule-form-tooltip-title {
+  font-weight: bold;
+}
+
+.faculty-weekly-schedule-form-tooltip strong {
+  line-height: 30px;
+}
+
+.faculty-weekly-schedule-form-tooltip:hover {
+  text-decoration: none;
+}
+
+/* Title */
+.faculty-weekly-schedule-form-tooltip-title {
+  font-weight: bold;
+  display: block;
+}
+
+/* Debug Info - Field Arguments */
+.faculty-weekly-schedule-form-tooltip.debug-info-field-arguments > span.faculty-weekly-schedule-form-tooltip-content {
+  min-width: 640px;
+  background-color: #F8F8F8;
+}
+
+.faculty-weekly-schedule-form-tooltip.debug-info-field-arguments > span.faculty-weekly-schedule-form-tooltip-content .dump-array {
+  max-height: 400px;
+  margin: 20px 8px;
+}
+
+/* For smaller screens */
+@media (max-width: 640px) {
+  .faculty-weekly-schedule-form-tooltip.debug-info-field-arguments > span.faculty-weekly-schedule-form-tooltip-content {
+    max-width: 280px;
+  }
+}
+.faculty-weekly-schedule-form-tooltip.debug-info-field-arguments:hover > span.faculty-weekly-schedule-form-tooltip-content::before {
+  content: " ";
+  position: absolute;
+  top: 36px;
+  right: 100%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #DCA transparent transparent;
+}
+
+.faculty-weekly-schedule-form-tooltip.debug-info-field-arguments:hover > span.faculty-weekly-schedule-form-tooltip-content::after {
+  content: " ";
+  position: absolute;
+  top: 38px;
+  right: 100%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent #F8F8F8 transparent transparent;
+}
+
+/* Nested fieldsets 3.8.0+ */
+.faculty-weekly-schedule-fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field.with-nested-fields > .faculty-weekly-schedule-fieldset.multiple-nesting {
+  margin-left: 2em;
+}
+
+.faculty-weekly-schedule-fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field.with-nested-fields > .faculty-weekly-schedule-fieldset {
+  margin-bottom: 1em;
+}
+
+.with-nested-fields > .faculty-weekly-schedule-fieldset.child-fieldset > .faculty-weekly-schedule-child-field-title {
+  display: inline-block;
+  padding: 0 0 0.4em 0;
+}
+
+.faculty-weekly-schedule-fieldset.child-fieldset > label.faculty-weekly-schedule-child-field-title {
+  display: table-row;
+  /* inline does not create a new line in FireFox */
+  white-space: nowrap;
+}
+
+/* Checkbox Field Type */
+.select_all_button_container,
+.select_none_button_container {
+  display: inline-block;
+  margin-bottom: 0.4em;
+}
+
+.faculty-weekly-schedule-checkbox-label {
+  margin-top: 0.1em;
+}
+
+.faculty-weekly-schedule-field input[type=checkbox] {
+  margin-right: 0.5em;
+}
+
+.faculty-weekly-schedule-field-checkbox .faculty-weekly-schedule-input-label-container {
+  padding-right: 1em;
+}
+
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-checkbox .faculty-weekly-schedule-input-label-string {
+  display: inline;
+  /* Checkbox labels should not fold(wrap) by creating an indent after the check box */
+}
+
+/* Color Picker Field Type */
+.repeatable .colorpicker {
+  display: inline;
+}
+
+.faculty-weekly-schedule-field-color .wp-picker-container {
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-color .ui-widget-content {
+  border: none;
+  background: none;
+  color: transparent;
+}
+
+.faculty-weekly-schedule-field-color .ui-slider-vertical {
+  width: inherit;
+  height: auto;
+  margin-top: -11px;
+}
+
+.faculty-weekly-schedule-field-color .faculty-weekly-schedule-repeatable-field-buttons {
+  margin-top: 0;
+}
+
+.faculty-weekly-schedule-field-color .wp-color-result {
+  /* Overriding the default css rule, margin: 0 6px 6px 0px; to vertically align middle in the sortable box */
+  margin: 3px;
+}
+
+.sortable .faculty-weekly-schedule-field-color .wp-picker-container .wp-color-result.button,
+.sortable .faculty-weekly-schedule-field-color .faculty-weekly-schedule-input-label-container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Contact Field Type */
+.faculty-weekly-schedule-field-contact .result-placeholder {
+  margin-bottom: 0.4em;
+}
+
+.faculty-weekly-schedule-field-contact .result-placeholder .success {
+  color: #00a32a;
+}
+
+.faculty-weekly-schedule-field-contact .result-placeholder .error {
+  color: #d63638;
+}
+
+/* Image Field Type */
+/* Image Field Preview Container */
+.faculty-weekly-schedule-field .image_preview {
+  border: none;
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 0.8em;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: inherit;
+}
+
+.faculty-weekly-schedule-field .image_preview img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.widget .faculty-weekly-schedule-field .image_preview {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .faculty-weekly-schedule-field .image_preview {
+    max-width: 600px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .faculty-weekly-schedule-field .image_preview {
+    max-width: 440px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .faculty-weekly-schedule-field .image_preview {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .faculty-weekly-schedule-field .image_preview {
+    max-width: 240px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .faculty-weekly-schedule-field .image_preview {
+    max-width: 600px;
+  }
+}
+/* Image Uploader Input Field */
+.faculty-weekly-schedule-field-image input {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+/* Image Uploader Button */
+.select_image.button.button-small,
+.remove_image.button.button-small {
+  vertical-align: middle;
+}
+
+.remove_image.button.button-small {
+  margin-left: 0.2em;
+}
+
+@media screen and (max-width: 782px) {
+  .faculty-weekly-schedule-field-image input {
+    margin: 0.5em 0.5em 0.5em 0;
+  }
+}
+/* Import Field Type */
+.faculty-weekly-schedule-field-import input {
+  margin-right: 0.5em;
+}
+
+.faculty-weekly-schedule-field-import,
+.faculty-weekly-schedule-field-import .faculty-weekly-schedule-input-label-container {
+  width: 100%;
+}
+
+.faculty-weekly-schedule-field-import label,
+.form-table td fieldset.faculty-weekly-schedule-fieldset .faculty-weekly-schedule-field-import label {
+  /* for Wordpress 3.8 or above */
+  display: inline-block;
+  /* to display the submit button in the same line to the file input tag */
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Inline-mixed Field Type */
+.faculty-weekly-schedule-field-inline_mixed {
+  width: 98%;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset {
+  display: inline-block;
+  overflow-x: visible;
+  /* Disable scrollbars which appear when the browser width is narrow */
+  padding-right: 0.4em;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields {
+  display: inline;
+  width: auto;
+  table-layout: auto;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field {
+  float: none;
+  clear: none;
+  width: 100%;
+  display: inline-block;
+  margin-right: auto;
+  vertical-align: middle;
+  /* For the select field type */
+}
+
+/* inline mixed child field title */
+.with-mixed-fields > fieldset > label {
+  width: auto;
+  padding: 0;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-string {
+  padding: 0;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > .faculty-weekly-schedule-input-label-container,
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > * > .faculty-weekly-schedule-input-label-container {
+  padding: 0;
+  display: inline;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > .faculty-weekly-schedule-input-label-container > label,
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > * > .faculty-weekly-schedule-input-label-container > label {
+  display: inline;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > .faculty-weekly-schedule-input-label-container > label > input,
+.faculty-weekly-schedule-field-inline_mixed > fieldset > .faculty-weekly-schedule-fields > .faculty-weekly-schedule-field > * > .faculty-weekly-schedule-input-label-container > label > input {
+  display: inline;
+  min-width: 100%;
+  margin-right: 0.2em;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+/* Input container label 3.8.0+ */
+.faculty-weekly-schedule-field-inline_mixed .faculty-weekly-schedule-input-label-container,
+.faculty-weekly-schedule-field-inline_mixed .faculty-weekly-schedule-input-label-string {
+  min-width: 0;
+}
+
+/* Buttons - color picker (@todo move this to the color field type) */
+.faculty-weekly-schedule-field-inline_mixed .faculty-weekly-schedule-input-label-container button.button {
+  margin: 0;
+}
+
+/* Repeatable Buttons */
+.faculty-weekly-schedule-field-inline_mixed .repeatable-field-button {
+  /* 3.9.0 Repeatable buttons inside `inline_mixed` fields get horizontally long for some reasons. */
+  width: 32px;
+  height: 32px;
+}
+
+/* Media Field Type */
+/* Media Uploader Button */
+.faculty-weekly-schedule-field-media input {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 782px) {
+  .faculty-weekly-schedule-field-media input {
+    margin: 0.5em 0.5em 0.5em 0;
+  }
+}
+.select_media.button.button-small,
+.remove_media.button.button-small {
+  vertical-align: middle;
+}
+
+.remove_media.button.button-small {
+  margin-left: 0.2em;
+}
+
+/* Post Type Field Type */
+.faculty-weekly-schedule-field input[type=checkbox] {
+  margin-right: 0.5em;
+}
+
+.faculty-weekly-schedule-field-posttype .faculty-weekly-schedule-input-label-container {
+  padding-right: 1em;
+}
+
+/* Radio Field Type */
+.faculty-weekly-schedule-field input[type=radio] {
+  margin-right: 0.5em;
+}
+
+.faculty-weekly-schedule-field-radio .faculty-weekly-schedule-input-label-container {
+  padding-right: 1em;
+}
+
+.faculty-weekly-schedule-field-radio .faculty-weekly-schedule-input-container {
+  display: inline;
+}
+
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-radio .faculty-weekly-schedule-input-label-string {
+  display: inline;
+  /* radio labels should not fold(wrap) after the check box */
+}
+
+/* Section Title Field Type */
+.faculty-weekly-schedule-section-tab .faculty-weekly-schedule-field-section_title {
+  padding: 0.5em;
+}
+
+.faculty-weekly-schedule-section-tab .faculty-weekly-schedule-field-section_title .faculty-weekly-schedule-input-label-string {
+  vertical-align: middle;
+  margin-left: 0.2em;
+}
+
+.faculty-weekly-schedule-section-tab .faculty-weekly-schedule-fields {
+  display: inline-block;
+}
+
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-section_title {
+  float: none;
+}
+
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-section_title input {
+  background-color: #fff;
+  color: #333;
+  border-color: #ddd;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+  border-width: 1px;
+  border-style: solid;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* Select Field Type */
+.faculty-weekly-schedule-field-select .faculty-weekly-schedule-input-label-container {
+  vertical-align: top;
+}
+
+.faculty-weekly-schedule-field-select .faculty-weekly-schedule-input-label-container {
+  padding-right: 1em;
+}
+
+/* Size Field Type */
+.faculty-weekly-schedule-field-size input {
+  text-align: right;
+}
+
+.faculty-weekly-schedule-field-size select.size-field-select {
+  vertical-align: 0;
+}
+
+.faculty-weekly-schedule-field-size label {
+  width: auto;
+}
+
+.form-table td fieldset .faculty-weekly-schedule-field-size label {
+  display: inline-block;
+}
+
+/* Submit Field Type */
+/* Submit Buttons */
+.faculty-weekly-schedule-field input[type=submit] {
+  margin-bottom: 0.5em;
+}
+
+/* Confirmation */
+.faculty-weekly-schedule-field-submit .submit-confirm-container {
+  display: inline-block;
+  margin-left: 1em;
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field-submit .field-error.submit-confirmation-warning {
+  float: none;
+}
+
+/* System Field Type */
+.faculty-weekly-schedule-field-system {
+  width: 100%;
+}
+
+.faculty-weekly-schedule-field-system .faculty-weekly-schedule-input-label-container {
+  width: 100%;
+}
+
+.faculty-weekly-schedule-field-system textarea {
+  background-color: #f9f9f9;
+  width: 97%;
+  outline: 0;
+  font-family: Consolas, Monaco, monospace;
+  white-space: pre;
+  word-wrap: normal;
+  overflow-x: scroll;
+}
+
+/* Table Field Type */
+.faculty-weekly-schedule-field-table {
+  width: 100%;
+  /* Prevent the width from being shrank when `collapsible` is on */
+  /* Collapsible */
+  /* When the collapsible title bar is clicked, switch the arrow icons */
+}
+.faculty-weekly-schedule-field-table .table-container > table {
+  width: 100%;
+}
+.faculty-weekly-schedule-field-table .table-container > table caption {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.faculty-weekly-schedule-field-table .table-container > table .key-value > *:first-child {
+  width: 20%;
+}
+.faculty-weekly-schedule-field-table .table-container > table th,
+.faculty-weekly-schedule-field-table .table-container > table td {
+  padding: 1em;
+}
+.faculty-weekly-schedule-field-table .column-key {
+  width: 20%;
+}
+.faculty-weekly-schedule-field-table .accordion-container {
+  border: 1px solid #c3c4c7;
+  background: #fff;
+}
+.faculty-weekly-schedule-field-table .accordion-title,
+.faculty-weekly-schedule-field-table .accordion-content {
+  padding: 1em;
+}
+.faculty-weekly-schedule-field-table .accordion-content {
+  /* For simple FAQ tables */
+}
+.faculty-weekly-schedule-field-table .accordion-content > p,
+.faculty-weekly-schedule-field-table .accordion-content > .text-content {
+  margin: 1em 1em 2em;
+}
+.faculty-weekly-schedule-field-table .accordion-title {
+  color: #2c3338;
+  font-weight: 500;
+  margin: 0;
+  padding: 1.2em 1em 1.2em 1.5em;
+  /* the right padding needs to be narrower to place the fold arrow icon */
+  line-height: 1;
+  /* To place the title on the left and the icon to the right side by side, similar to .postbox-header, the meta-box container header element selector */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* vertical alignments of items to middle */
+}
+.faculty-weekly-schedule-field-table .accordion-title > h4 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.faculty-weekly-schedule-field-table .accordion-title.ui-accordion-header-collapsed .icon-collapsible:before {
+  content: "";
+}
+.faculty-weekly-schedule-field-table .accordion-title.ui-accordion-header-active .icon-collapsible:before {
+  content: "";
+}
+
+/* Responsiveness */
+@media screen and (max-width: 782px) {
+  /* when the screen is within 782px, */
+  .faculty-weekly-schedule-field-table .table-container > table .key-value > *:first-child {
+    width: inherit;
+  }
+  .faculty-weekly-schedule-field-table .column-key {
+    width: inherit;
+    padding: 6px 0 4px;
+  }
+  .faculty-weekly-schedule-field-table th > p,
+.faculty-weekly-schedule-field-table td > p {
+    margin: 0 1em;
+  }
+}
+/* Taxonomy Field Type */
+.faculty-weekly-schedule-field .taxonomy-checklist li {
+  margin: 8px 0 8px 20px;
+}
+
+.faculty-weekly-schedule-field div.taxonomy-checklist {
+  padding: 8px 0 8px 10px;
+  margin-bottom: 20px;
+}
+
+.faculty-weekly-schedule-field .taxonomy-checklist ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.faculty-weekly-schedule-field .taxonomy-checklist ul ul {
+  margin-left: 1em;
+}
+
+.faculty-weekly-schedule-field .taxonomy-checklist-label {
+  white-space: nowrap;
+}
+
+/* Repeatable Buttons */
+.faculty-weekly-schedule-field-taxonomy .faculty-weekly-schedule-repeatable-field-buttons {
+  margin-bottom: 0.6em;
+}
+
+/* Tabbed box */
+.faculty-weekly-schedule-field .tab-box-container.categorydiv {
+  max-height: none;
+}
+
+.faculty-weekly-schedule-field .tab-box-tab-text {
+  display: inline-block;
+  font-size: 13px;
+  font-size: smaller;
+  padding: 2px;
+}
+
+.faculty-weekly-schedule-field .tab-box-tabs {
+  line-height: 12px;
+  margin-bottom: 0;
+}
+
+.faculty-weekly-schedule-field .tab-box-tabs .tab-box-tab.active {
+  display: inline;
+  border-color: #dfdfdf #dfdfdf #fff;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+  background-color: #fff;
+}
+
+.faculty-weekly-schedule-field .tab-box-container {
+  position: relative;
+  width: 100%;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.faculty-weekly-schedule-field .tab-box-tabs li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.faculty-weekly-schedule-field .tab-box-contents-container {
+  padding: 0 0 0 1.8em;
+  padding: 0.55em 0.5em 0.55em 1.8em;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.faculty-weekly-schedule-field .tab-box-contents {
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  top: -1px;
+  height: 300px;
+}
+
+.faculty-weekly-schedule-field .tab-box-content {
+  /* height: 300px; */
+  display: none;
+  overflow: auto;
+  display: block;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.faculty-weekly-schedule-field .tab-box-content .taxonomychecklist {
+  margin-right: 3.2em;
+}
+
+.faculty-weekly-schedule-field .tab-box-content:target,
+.faculty-weekly-schedule-field .tab-box-content:target,
+.faculty-weekly-schedule-field .tab-box-content:target {
+  display: block;
+}
+
+/* tab-box-content */
+.faculty-weekly-schedule-field .tab-box-content .select_all_button_container,
+.faculty-weekly-schedule-field .tab-box-content .select_none_button_container {
+  display: inline-block;
+  /* 3.8.8 For some reasons, it became `block` */
+  margin-top: 0.8em;
+}
+
+/* Nested Checkbox Items */
+.faculty-weekly-schedule-field .taxonomychecklist .children {
+  margin-top: 6px;
+  margin-left: 1em;
+}
+
+/* Text Field Type */
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-text > .faculty-weekly-schedule-input-label-container {
+  /* vertical-align: top; @depracated 3.7.1 */
+  vertical-align: middle;
+}
+
+.faculty-weekly-schedule-field.faculty-weekly-schedule-field-text > .faculty-weekly-schedule-input-label-container.faculty-weekly-schedule-field-text-multiple-labels {
+  /* When the browser screen width gets narrow, avoid the inputs getting placed next each other. */
+  display: block;
+}
+
+/* Textarea Field Type */
+.faculty-weekly-schedule-field-textarea .faculty-weekly-schedule-input-label-string {
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+/* Rich Text Editor */
+.faculty-weekly-schedule-field-textarea .wp-core-ui.wp-editor-wrap {
+  margin-bottom: 0.5em;
+}
+
+.faculty-weekly-schedule-field-textarea.faculty-weekly-schedule-field .faculty-weekly-schedule-input-label-container {
+  vertical-align: top;
+  float: left;
+  clear: both;
+}
+
+/* For meta-boxes */
+.postbox .faculty-weekly-schedule-field-textarea .faculty-weekly-schedule-input-label-container {
+  width: 100%;
+}
+
+/* Prevents the input box sticks out in a meta box, especially in the side meta box. */
+.faculty-weekly-schedule-field-textarea textarea {
+  max-width: 100%;
+}
+/*# sourceMappingURL=form.css.map */
