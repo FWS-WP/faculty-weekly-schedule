@@ -3,7 +3,7 @@ Contributors: profgeorgecooke
 Donate link: https://giving.broward.edu/donate
 Tags: faculty, weekly, schedule, office, hours, class, classes
 Requires at least: 5.0
-Tested up to: 5.9.2
+Tested up to: 6.2
 Stable tag: 1.2.0
 Requires PHP: 7.3
 License: GPLv2 or later
